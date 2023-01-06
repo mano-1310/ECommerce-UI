@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='' id='about'>About</div>
+    <div className='min-h-[500px]' id='about'>About</div>
   )
 }
 
