@@ -17,7 +17,8 @@ const Navbar = () => {
           <Link to='#about' className="hover:underline  transition ease-in-out py-1.5 drop-shadow-lg px-4 ">About</Link>
         </div>
         <div className="p-7 flex ml-44 justify-center">
-          <input type='search' name='search' className="outline-none rounded-full w-[250px] font-extralight text-black px-4">< BsFillCartFill /></input>
+          <input type='search' name='search' className="outline-none rounded-full w-[250px] font-extralight text-black px-4"/>
+          <span></span>
         </div>
         <div className="py-4 flex justify-center items-center font-poppins text-2xl  block-inline">
           <Link to='#product' className="font-bold ml-[130px]  ">< BsFillCartFill size={30} /></Link>
