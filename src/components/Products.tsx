@@ -7,37 +7,34 @@ const products = [
     "dress_type": "pant",
     "dress_size": "35",
     "dress_style": "Lycra",
-    "dress_gender": "Boy",
+
     "dress_cost": "500",
     "img_url": "https://5.imimg.com/data5/SELLER/Default/2022/1/MB/AQ/BY/144571246/men-formal-lycra-pant-500x500.png"
   },
   {
     "dress_id": 1,
     "dress_brand": "Loveable",
-    "dress_name": "Round Neck Tshirt",
+    "dress_type": "Round Neck Tshirt",
     "dress_size": "S",
     "dress_style": "Lycra",
-    "dress_gender": "Girl",
     "dress_cost": "749",
     "img_url": "https://m.media-amazon.com/images/I/61QYWRZVtFL._UL1200_.jpg"
   },
   {
     "dress_id": 1,
     "dress_brand": "CK",
-    "dress_name": "Tshirt",
+    "dress_type": "Tshirt",
     "dress_size": "35",
     "dress_style": "Lycra",
-    "dress_gender": "Girl",
     "dress_cost": "749",
     "img_url": ""
   },
   {
     "dress_id": 1,
     "dress_brand": "CK",
-    "dress_name": "Tshirt",
+    "dress_type": "Pant ",
     "dress_size": "35",
     "dress_style": "Lycra",
-    "dress_gender": "Girl",
     "dress_cost": "749",
     "img_url": ""
   },
@@ -50,12 +47,23 @@ const Posts = () => {
       {
         products.map((product, index) =>
           <div className='grid md:grid-cols-4 gap-3 sm:grid-cols-1 md:mx-9 sm:p-4 '>
-            <div className="bg-white h-[600px] w-[400px] rounded-lg overflow-hidden overflow-y-auto  col-span-2">
+            <div className="bg-white h-[800px] w-[400px] shadow-md rounded-lg overflow-hidden overflow-y-auto  col-span-2">
               <div key={index}>
                 <div>
-                  <img className="" src={product.img_url} alt="no img" />
+                  <img className="h-[500px] w-[400px] flex " src={product.img_url} alt="no img" />
                 </div>
-                <h1>{product.dress_brand}</h1>
+                <div className="px-2">
+                  <h1 className="block text-center font-bold text-xl p-2 "> {product.dress_brand}</h1>
+                  <h1 className="block"><h1 className="inline-block font-bold"> Type : </h1> {product.dress_type}</h1>
+                  <div className="px-1 mt-2">
+                    <select className="w-full outline-none focus:outline-gray-500 shadow-md rounded-sm" placeholder="size">
+                      <option className="bg-none">S</option>
+                      <option selected className="">M</option>
+                      <option className="">X</option>
+                      <option className="">XL</option>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
