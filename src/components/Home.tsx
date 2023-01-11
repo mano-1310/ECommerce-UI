@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import images from './assets/images/dressModels/m1.jpg'
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <div className="font-bold flex mt-10 justify-center">
           <button className="items-center py-3 mt-[10px] px-2 text-center group relative rounded-md overflow-hidden drop-shadow-xl bg-black">
             <div className="absolute inset-0 w-0 bg-white transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-white group-hover:text-black">Go Shopping</span>
+            <NavLink to='/products'><span className="relative text-white group-hover:text-black">Go Shopping</span> </NavLink>
           </button>
         </div>
       </div>

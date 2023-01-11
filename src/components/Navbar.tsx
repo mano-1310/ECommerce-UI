@@ -1,10 +1,9 @@
-import { BrowserRouter } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link'
 import { BsFillCartFill } from 'react-icons/bs'
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
-    <div> <BrowserRouter> 
-      <div className="flex sticky top-0">
+    <div> 
+      <div className="flex top-0">
         <nav className="min-h-[70px] scroll-smooth bg-opacity-95 rounded-xl top-0 max-w-fit  container flex">
           <div className="p-3">
             <span><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -18,17 +17,16 @@ const Navbar = () => {
             </svg>
             </span>
           </div>
-          <div className="md:space-x-[50px] sm:space-x-[20px] p-7 flex justify-center items-center font-poppins font-medium text-2xl block-inline">
-            <Link to='#home' className="hover:underline  transition ease-in-out py-1.5 hover:outline-2 drop-shadow-lg px-4">Home</Link>
-            <Link to='#product' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</Link>
+          <div className="md:space-x-[50px] sm:space-x-[20px] p-7 flex justify-center items-center  font-medium text-2xl block-inline">
+            <NavLink to='/home' className="hover:underline  transition ease-in-out py-1.5 hover:outline-2 drop-shadow-lg px-4">Home</NavLink>
+            <NavLink to='/products' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</NavLink>
           </div>
-          <div className="py-4 flex justify-end items-center md:ml-[1300px]  font-poppins text-2xl  block-inline">
-              <a rel="noreferrer" target='_blank' href='f' className="" >{<BsFillCartFill size={35} />} </a>
+          <div className="py-4 flex justify-end items-center md:ml-[1100px] text-2xl  block-inline">
+              <NavLink to='/cart' rel='norefferer'>{<BsFillCartFill size={35} />} </NavLink>
               <span className="ml-2">Cart</span>
           </div>
         </nav>
       </div>
-    </BrowserRouter>
     </div>
   )
 }
