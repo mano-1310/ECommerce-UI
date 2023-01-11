@@ -70,7 +70,6 @@ const Posts = () => {
         )
       }
     </div>
-
   )
 }
 
