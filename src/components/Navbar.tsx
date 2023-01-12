@@ -1,4 +1,3 @@
-import { BsFillCartFill } from 'react-icons/bs'
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
@@ -7,7 +6,7 @@ const Navbar = () => {
         <nav className="min-h-[70px] scroll-smooth bg-opacity-95 rounded-xl top-0 max-w-fit  container flex">
           <div className="p-3">
             <span><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-              width="70pt" height="70pt" viewBox="0 0 1217.000000 1182.000000"
+              width="50pt" height="50pt" viewBox="0 0 1217.000000 1182.000000"
               preserveAspectRatio="xMidYMid meet">
               <g transform="translate(0.000000,1182.000000) scale(0.100000,-0.100000)"
                 fill="#000000" stroke="none">
@@ -17,13 +16,12 @@ const Navbar = () => {
             </svg>
             </span>
           </div>
-          <div className="md:space-x-[50px] sm:space-x-[20px] p-7 flex justify-center items-center  font-medium text-2xl block-inline">
+          <div className="md:space-x-[50px] sm:space-x-[20px] p-7 flex justify-center items-center  font-medium text-[18px] block-inline">
             <NavLink to='/home' className="hover:underline  transition ease-in-out py-1.5 hover:outline-2 drop-shadow-lg px-4">Home</NavLink>
             <NavLink to='/products' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</NavLink>
           </div>
-          <div className="py-4 flex justify-end items-center md:ml-[1100px] text-2xl  block-inline">
-              <NavLink to='/cart' rel='norefferer'>{<BsFillCartFill size={35} />} </NavLink>
-              <span className="ml-2">Cart</span>
+          <div className="py-4 flex justify-end items-center ml-[1400px] text-[18px] block-inline">
+              <NavLink to='/cart' rel='norefferer'><span className="ml-2">Cart</span></NavLink>
           </div>
         </nav>
       </div>
