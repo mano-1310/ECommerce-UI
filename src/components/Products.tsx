@@ -15,7 +15,7 @@ const products = [
 ]
 const Posts = () => {
   return (
-    <div className="min-h-screen sm:flex" id='product'>
+    <div className="min-h-screen sm:flex">
       {
         products.map((product, index) =>
           <div className='grid md:grid-rows-1 gap-3 sm:grid-rows-1 md:mx-9 sm:p-4 '>
