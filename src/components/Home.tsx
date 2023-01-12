@@ -3,6 +3,7 @@ import images1 from './assets/images/dressModels/m1.jpg'
 import images2 from './assets/images/dressModels/m2.jpg'
 import images3 from './assets/images/dressModels/m3.jpg'
 import ImageSlider from './ImageSlider1'
+
 const Home = () => {
   return (
     <div className="min-h-screen top-0 pt-10" >
