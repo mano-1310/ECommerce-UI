@@ -21,8 +21,8 @@ const Navbar = () => {
             <NavLink to='/home' className="hover:underline  transition ease-in-out py-1.5 hover:outline-2 drop-shadow-lg px-4">Home</NavLink>
             <NavLink to='/products' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</NavLink>
           </div>
-          <div className="py-4 flex justify-end items-center md:ml-[1100px] text-2xl  block-inline">
-              <NavLink to='/cart' rel='norefferer'>{<BsFillCartFill size={35} />} </NavLink>
+          <div className="py-4 flex justify-end items-center md:ml-[1270px] text-2xl  block-inline">
+              <NavLink  to='/cart' rel='norefferer'>{<BsFillCartFill size={35} />} </NavLink>
               <span className="ml-2">Cart</span>
           </div>
         </nav>
