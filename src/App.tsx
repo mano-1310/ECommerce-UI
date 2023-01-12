@@ -9,7 +9,7 @@ import Cart from './components/Cart';
 function App() {
   return (
     <Background>
-      < Navbar/>
+      <Navbar/>
         <Routes>
           <Route path='/' element={< Home />} />
           <Route path='/home' element={< Home />} />

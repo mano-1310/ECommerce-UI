@@ -13,11 +13,11 @@ const ImageSlider = ({ images }) => {
   };
 
   return (
-    <div className="relative">
-      <div className="">
+    <div className="flex overflow-hidden">
+      <div className="flex">
         <img className="h-[700px] rounded-md]" src={images[currentIndex]} alt="Slider" />
       </div>
-      <div className="flex justify-center space-x-3 mt-3 items-center">
+      <div className=" flex justify-center space-x-3 mt-3 items-center">
         <button onClick={handlePreviousClick} className="p-2">
           <span>
             <svg
