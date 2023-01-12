@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
       <div className="bg-slate-200 w-full" id='home'>
         <div className="flex top-0">
-          <nav className="min-h-[70px] scroll-smooth overflow-y-auto bg-opacity-75 rounded-xl top-0 max-w-fit container flex">
-            <div className="p-3">
+          <nav className="min-h-[70px] scroll-smooth bg-opacity-75 rounded-xl top-0 max-w-fit container flex">
+            <div className="lg:p-3 sm:p-1">
               <span><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                 width="50pt" height="50pt" viewBox="0 0 1217.000000 1182.000000"
                 preserveAspectRatio="xMidYMid meet">
@@ -17,11 +17,11 @@ const Navbar = () => {
               </svg>
               </span>
             </div>
-            <div className="md:space-x-[50px] sm:space-x-[20px] p-7 flex justify-center items-center  font-medium text-[18px] block-inline">
+            <div className="lg:space-x-[50px] sm:space-x-[20px] p-7 flex justify-center items-center font-medium text-[18px] block-inline">
               <Link to='/home' className="hover:underline  transition ease-in-out py-1.5 hover:outline-2 drop-shadow-lg px-4">Home</Link>
               <Link to='/products' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</Link>
             </div>
-            <div className="py-4 flex justify-end items-center ml-[1400px] text-[18px] block-inline">
+            <div className="py-4 justify-end flex items-center lg:ml-[1400px] sm:ml text-[18px] block-inline">
               <Link to='/cart' rel='norefferer'><span className="ml-2">Cart</span></Link>
             </div>
           </nav>
