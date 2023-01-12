@@ -2,7 +2,7 @@ import React from 'react'
 
 const Posts = () => {
   return (
-    <div className="p-10 pt-[150px] min-h-screen ">
+    <div className="p-10 pt-[150px] min-h-screen " id='products'>
       <div className=" w-full lg:max-w-full lg:flex">
         <div className="h-48 lg:h-auto border-gray-400 lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Mountain">
           <img src='https://5.imimg.com/data5/SELLER/Default/2022/1/MB/AQ/BY/144571246/men-formal-lycra-pant-500x500.png' alt="" />
