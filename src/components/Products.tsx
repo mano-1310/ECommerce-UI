@@ -1,51 +1,35 @@
 import React from 'react'
 
-const products = [
-  {
-    "dress_id": 0,
-    "dress_brand": "CK",
-    "dress_type": "pant",
-    "dress_size": "35",
-    "dress_style": "Lycra",
-
-    "dress_cost": "500",
-    "img_url": "https://5.imimg.com/data5/SELLER/Default/2022/1/MB/AQ/BY/144571246/men-formal-lycra-pant-500x500.png"
-  },
-
-]
 const Posts = () => {
   return (
-    <div className="min-h-screen sm:flex" id='product'>
-      {
-        products.map((product, index) =>
-          <div className='grid grid-rows-1 gap-3 md:mx-9 sm:p-4 '>
-            <div className="bg-white h-[400px] w-[1800px] shadow-md rounded-lg overflow-hidden overflow-y-auto  rows-span-1">
-              <div key={index}>
-                <div className="flex items-center">
-                  <div className=" flex items-start">
-                    <img className="h-[400px] w-[400px] items-start" src={product.img_url} alt="no img" />
-                  </div>
-                  <div className="px-2 block">
-                    <h1 className="inline-block text-center font-bold text-xl p-2 "> {product.dress_brand}</h1>
-                    <h1 className="inline-block text-center"><h1 className="font-bold"> Type : </h1> {product.dress_type}</h1>
-                    <h1 className="inline-block text-center"><h1 className="font-bold"> Style : </h1> {product.dress_style}</h1>
-                    <div className="px-1 mt-2">
-                      <select className="w-full outline-none focus:outline-gray-500 shadow-md rounded-sm" placeholder="size" defaultValue='S'>
-                        <option className="bg-none">S</option>
-                        <option selected className="">M</option>
-                        <option className="">X</option>
-                        <option className="">XL</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <div className="p-10 min-h-screen">
+      <div className=" w-full lg:max-w-full lg:flex">
+        <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Mountain">
+          <img src='https://5.imimg.com/data5/SELLER/Default/2022/1/MB/AQ/BY/144571246/men-formal-lycra-pant-500x500.png' alt="" />
+        </div>
+        <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+          <div className="mb-8">
+            <p className="text-sm text-gray-600 flex items-center">
+              <svg className="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+              </svg>
+              Members only
+            </p>
+            <div className="text-gray-900 font-bold text-xl mb-2">Best Mountain Trails 2020</div>
+            <p className="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+          </div>
+          <div className="flex items-center">
+            <img className="w-10 h-10 rounded-full mr-4" src="/ben.png" alt="Avatar of Writer" />
+            <div className="text-sm">
+              <p className="text-gray-900 leading-none">John Smith</p>
+              <p className="text-gray-600">Aug 18</p>
             </div>
           </div>
-        )
-      }
+        </div>
+      </div>
     </div>
   )
 }
+
 
 export default Posts
