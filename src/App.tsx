@@ -6,6 +6,7 @@ import Products from './components/Products';
 import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Cart from './components/Cart';
+
 function App() {
   return (
     <Background>
