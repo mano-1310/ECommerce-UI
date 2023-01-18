@@ -2,7 +2,7 @@ import React from 'react'
 
 const puma = () => {
   return (
-    <div>puma</div>
+    <div className="min-h-screen">puma</div>
   )
 }
 

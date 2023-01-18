@@ -2,7 +2,9 @@ import React from 'react'
 
 const adidas = () => {
   return (
-    <div>adidas</div>
+    <div className="min-h-screen">
+      adidas
+    </div>
   )
 }
 

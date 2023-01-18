@@ -2,7 +2,7 @@ import React from 'react'
 
 const zara = () => {
   return (
-    <div>zara</div>
+    <div className="min-h-screen">zara</div>
   )
 }
 

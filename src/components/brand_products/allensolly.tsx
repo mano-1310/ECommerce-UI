@@ -2,7 +2,7 @@ import React from 'react'
 
 const allensolly = () => {
   return (
-    <div>allensolly</div>
+    <div className="min-h-screen">allensolly</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ck = () => {
   return (
-    <div>ck</div>
+    <div className="min-h-screen">ck</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const nike = () => {
   return (
-    <div>nike</div>
+    <div className="min-h-screen">nike</div>
   )
 }
 
