@@ -1,10 +1,12 @@
-
 const Footer = () => {
   return (
-    <div className="min-h-[100px] bg-black text-white">
-      <div className="flex justify-end pt-4 mr-4">
+    <footer>
+      <div className="min-h-[100px]  bg-black text-white">
+        <div className="flex lg:justify-start sm:justify-center">
+          &copy; 2023 E Fashion, Inc. All rights reserved.
+        </div>
       </div>
-    </div>
+    </footer>
   )
 }
 

@@ -7,17 +7,18 @@ import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Cart from './components/Cart';
 
+
 function App() {
   return (
     <Background>
-      <Navbar/>
-        <Routes>
-          <Route path='/' element={< Home />} />
-          <Route path='/home' element={< Home />} />
-          <Route path='/products' element={< Products />} />
-          <Route path='/cart' element={< Cart />} />
-        </Routes>
-        <Footer/>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={< Home />} />
+        <Route path='/home' element={< Home />} />
+        <Route path='/products' element={< Products />} />
+        <Route path='/cart' element={< Cart />} />
+      </Routes>
+      <Footer />
     </Background>
   );
 }
