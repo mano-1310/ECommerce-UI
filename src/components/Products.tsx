@@ -1,18 +1,5 @@
 import React from 'react'
 
-const products = [
-  {
-    "dress_id": 0,
-    "dress_brand": "CK",
-    "dress_type": "pant",
-    "dress_size": "35",
-    "dress_style": "Lycra",
-
-    "dress_cost": "500",
-    "img_url": "https://5.imimg.com/data5/SELLER/Default/2022/1/MB/AQ/BY/144571246/men-formal-lycra-pant-500x500.png"
-  },
-
-]
 const Posts = () => {
   return (
     <div className="p-10 min-h-screen">
