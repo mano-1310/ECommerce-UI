@@ -34,7 +34,7 @@ const products = [
 ]
 const zara = () => {
   return (
-    <div className="min-h-">
+    <div className="min-h-screen">
       <div className="px-10 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-5">
         {
           products.map((product, index) =>
@@ -59,7 +59,7 @@ const zara = () => {
                 </div>
                 <div className="pt-2">
                   <label htmlFor="quantity" className="font-semibold">Quantity
-                    <input type="number" defaultValue={1} className="w-full shadow-lg h-[30px] px-2" />
+                    <input type="number" defaultValue={1} className="w-full border-2 rounded-md h-[30px] px-2" />
                   </label>
                 </div>
                 <div className="pt-2 text-xl font-bold">

@@ -5,7 +5,7 @@ const products = [
     "id": 1,
     "product_name": "DESIGNED 4 GAMEDAY PREMIUM FULL-ZIP TRACK TOP",
     "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b43a786deeff4895b21caf4600d8b2d4_9366/Designed_4_Gameday_Premium_Full-Zip_Track_Top_Brown_IC8043_21_model.jpg',
-    "price": "450rs"
+    "price": "6,050.0rs"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@ const products = [
     "id": 3,
     "product_name": "WORDING OVERSIZED FIT FLEECE FULL-ZIP HOODIE",
     "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fa79fd5f40f94c5c8396ae45013cca1d_9366/Wording_Oversized_Fit_Fleece_Full-Zip_Hoodie_Black_HM2814_25_model.jpg',
-    "price": "450rs"
+    "price": "4,500.0rs"
   },
   {
     "id": 4,
@@ -59,7 +59,7 @@ const adidas = () => {
                 </div>
                 <div className="pt-2">
                   <label htmlFor="quantity" className="font-semibold">Quantity
-                    <input type="number" defaultValue={1} className="w-full shadow-lg h-[30px] px-2" />
+                    <input type="number" defaultValue={1} className="w-full border-2 rounded-md h-[30px] px-2" />
                   </label>
                 </div>
                 <div className="pt-2 text-xl font-bold">

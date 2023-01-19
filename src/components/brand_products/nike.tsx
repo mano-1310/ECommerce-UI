@@ -59,7 +59,7 @@ const nike = () => {
                 </div>
                 <div className="pt-2">
                   <label htmlFor="quantity" className="font-semibold">Quantity
-                    <input type="number" defaultValue={1} className="w-full shadow-lg h-[30px] px-2" />
+                    <input type="number" defaultValue={1} className="w-full border-2 rounded-md h-[30px] px-2" />
                   </label>
                 </div>
                 <div className="pt-2 text-xl font-bold">

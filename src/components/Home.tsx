@@ -53,14 +53,14 @@ const allBrands = [
 const Home = () => {
   return (
     <div className="min-h-screen top-0 pt-10" >
-      <div className="flex justify-center ">
-        <h1 className="text-black transition-colors ease-in 1.5 animate-type hover:text-red-400 font-poppins font-bold lg:text-[200px] sm:text-[950px]">E Fashion</h1>
+      <div className=" flex justify-center text-center">
+        <h1 className=" flex justify-center text-black transition-colors ease-in 1.5 animate-type hover:text-red-400 font-poppins font-bold lg:text-9xl sm:text-5xl">E Fashion</h1>
       </div>
       <div className="flex justify-center my-6 overflow-hidden text-2xl">
-        <h3 className="text-xl lg: sm:text-center text-red-700"> Quote : <p className="text-center text-black inline-block text-[30px] p-5" >"The joy of dressing is an art." —John Galliano</p> </h3>
+        <h3 className="text-xl  sm:text-center text-red-700"> Quote : <p className="text-center text-black inline-block text-[30px] p-5" >"The joy of dressing is an art." —John Galliano</p> </h3>
       </div>
-      <div className="justify-center overflow-hidden sm:flex">
-        <ImageSlider images1={[images1, images2, images3]} />
+      <div className="justify-center overflow-hidden drop-shadow-xl sm:flex">
+        <ImageSlider  images1={[images1, images2, images3]} />
       </div>
       <h1 className="font-semibold text-left ml-10 py-4">All Brands</h1>
       <div className="px-10 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 gap-5">
