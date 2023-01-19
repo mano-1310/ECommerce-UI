@@ -7,7 +7,7 @@ import Nike from './brand_products/nike'
 import Adidas from './brand_products/adidas'
 const Posts = () => {
   return (
-    <div className="min-h-screen px-4" id='products'>
+    <div className="min-h-screen px-4" >
       <Adidas/>
       <Ck/>
       <Puma/>
