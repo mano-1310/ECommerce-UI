@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
   return (
-      <div className="bg-gray-200 w-full" id='home'>
+      <div className="bg-gray-200 fix w-full" id='home'>
         <div className="flex top-0">
           <nav className="min-h-[70px] scroll-smooth bg-opacity-75 rounded-xl top-0 max-w-fit container flex">
             <div className="lg:p-3 sm:p-1">
@@ -21,7 +21,7 @@ const Navbar = () => {
               <Link to='/home' className="hover:underline  transition ease-in-out py-1.5 hover:outline-2 drop-shadow-lg px-4">Home</Link>
               <Link to='/products' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</Link>
             </div>
-            <div className="py-4 justify-end flex items-center lg:ml-[1400px] text-[18px] block-inline">
+            <div className="py-4 justify-end flex items-center lg:ml-[1445px] text-[18px] block-inline">
               <Link to='/cart' rel='norefferer'><span className="ml-2">Cart</span></Link>
             </div>
           </nav>

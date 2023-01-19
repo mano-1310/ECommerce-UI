@@ -1,91 +1,65 @@
 import React from 'react'
+import {BsFillHeartFill} from 'react-icons/bs'
 const products = [
   {
     "id": 1,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": "450rs"
+    "product_name": "FADED MINIMALIST BLACK  T-SHIRT",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/4424/642/822/2/w/850/4424642822_1_1_1.jpg?ts=1670842913890',
+    "price": "990rs"
   },
   {
     "id": 2,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": ""
+    "product_name": "FAUX LEATHER OVERSIZE BLACK JACKET ",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/3427/811/800/2/w/850/3427811800_2_2_1.jpg?ts=1673979103860',
+    "price": "5,990rs"
   },
   {
     "id": 3,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": ""
+    "product_name": "TEXTURED MEN'S BLACK T-SHIRT",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/2/p/0761/412/800/2/w/850/0761412800_2_4_1.jpg?ts=1674031057640',
+    "price": "1,990rs"
   },
   {
     "id": 4,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": ""
+    "product_name": "WOMEN'S BOX PLEAT KNIT MINI SKIRT ",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/3859/153/800/2/w/850/3859153800_2_1_1.jpg?ts=1673974056815',
+    "price": "2,990rs"
   },
   {
     "id": 5,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": ""
-  },
-  {
-    "id": 6,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": ""
-  },
-  {
-    "id": 7,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": "450rs"
-  },
-  {
-    "id": 8,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": ""
-  },
-  {
-    "id": 9,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": ""
-  },
-  {
-    "id": 10,
-    "product_name": "Black T-shirt",
-    "img_url": '',
-    "price": ""
+    "product_name": "MEN'S HOODIE - LIMITED EDITION",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/2/p/0761/437/401/2/w/850/0761437401_2_5_1.jpg?ts=1673538656103',
+    "price": "2,990rs"
   },
 ]
 const zara = () => {
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-">
       <div className="px-10 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-5">
         {
           products.map((product, index) =>
             <div className="rounded bg-white overflow-hidden shadow-lg" key={index}>
-              <img className="w-full h-[200px]" src={product.img_url} alt="zara" />
+              <img className="w-full h-[500px]" src={product.img_url} alt="zara" />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl text-center mb-2">{product.product_name}</div>
                 <div>
-                  <p className="text-gray-700 text-base">
-                  </p>
                   <label htmlFor="size" className="font-semibold py-1">Size</label>
-                  <select name="size" id="sze" className="w-full shadow-sm">
-                    <option>S</option>
-                    <option selected>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                    <option>XXl</option>
-                  </select>
+                  <div className="font-bold">
+                    <label htmlFor="extrasmall" className="px-4">XS</label>
+                    <input type="checkbox" name="xtrasmall" id="xs" className="" />
+                    <label htmlFor="small" className="px-4">S</label>
+                    <input type="checkbox" name="small" id="s" />
+                    <label htmlFor="medium" className="px-4">M</label>
+                    <input type="checkbox" name="medium" id="m" />
+                    <label htmlFor="large" className="px-4">L</label>
+                    <input type="checkbox" name="large" id="l" />
+                    <label htmlFor="extralarge" className="px-4">XL</label>
+                    <input type="checkbox" name="extralarge" id="xl" />
+                  </div>
                 </div>
                 <div className="pt-2">
                   <label htmlFor="quantity" className="font-semibold">Quantity
-                    <input type="number" defaultValue={1} className="w-full shadow-sm h-[30px] px-2" />
+                    <input type="number" defaultValue={1} className="w-full shadow-lg h-[30px] px-2" />
                   </label>
                 </div>
                 <div className="pt-2 text-xl font-bold">
@@ -93,14 +67,11 @@ const zara = () => {
                 </div>
               </div>
               <div className="justify-center flex gap-3 p-2">
-                <button className="py-1 w-full rounded text-white hover:bg-slate-700 bg-black" title='Add to Cart'>cart</button>
+                <button className="py-1 w-[50px] rounded flex justify-center items-center bg-white" title='Add to Cart'>{< BsFillHeartFill fill='red' size={30} />}</button>
                 <button className="py-1 w-full rounded text-white hover:bg-slate-400 bg-black">Buy</button></div>
             </div>
           )
         }
-        <div >
-          <a className="text-xl" href="/adidas">See More....</a>
-        </div>
       </div>
     </div>
   )

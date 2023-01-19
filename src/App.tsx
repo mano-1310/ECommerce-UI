@@ -4,16 +4,16 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Products from './components/Products';
 import Navbar from './components/Navbar';
-//brand_products
+import { Route, Routes } from 'react-router-dom';
+import Cart from './components/Cart';
+
+//brands
 import Ck from './components/brand_products/ck';
 import Nike from './components/brand_products/nike';
 import Adidas from './components/brand_products/adidas';
 import Allensolly from './components/brand_products/allensolly';
 import Zara from './components/brand_products/zara';
 import Puma from './components/brand_products/puma';
-import { Route, Routes } from 'react-router-dom';
-import Cart from './components/Cart';
-
 
 function App() {
   return (
