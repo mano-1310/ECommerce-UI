@@ -3,13 +3,13 @@ import Popup from 'reactjs-popup'
 const products = [
   {
     "id": 1,
-    "product_name": "FADED MINIMALIST BLACK  T-SHIRT",
+    "product_name": "FADED MINIMALIST  T-SHIRT",
     "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/4424/642/822/2/w/850/4424642822_1_1_1.jpg?ts=1670842913890',
     "price": "990rs"
   },
   {
     "id": 2,
-    "product_name": "FAUX LEATHER OVERSIZE BLACK JACKET ",
+    "product_name": "FAUX LEATHER OVERSIZE  JACKET ",
     "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/3427/811/800/2/w/850/3427811800_2_2_1.jpg?ts=1673979103860',
     "price": "5,990rs"
   },
@@ -21,13 +21,43 @@ const products = [
   },
   {
     "id": 4,
-    "product_name": "WOMEN'S BOX PLEAT KNIT MINI SKIRT ",
+    "product_name": "WOMEN'S BOX KNIT MINI SKIRT ",
     "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/3859/153/800/2/w/850/3859153800_2_1_1.jpg?ts=1673974056815',
     "price": "2,990rs"
   },
   {
     "id": 5,
-    "product_name": "MEN'S HOODIE - LIMITED EDITION",
+    "product_name": "MEN'S HOODIE LIMITED EDITION",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/2/p/0761/437/401/2/w/850/0761437401_2_5_1.jpg?ts=1673538656103',
+    "price": "2,990rs"
+  },
+  {
+    "id": 1,
+    "product_name": "FADED MINIMALIST  T-SHIRT",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/4424/642/822/2/w/850/4424642822_1_1_1.jpg?ts=1670842913890',
+    "price": "990rs"
+  },
+  {
+    "id": 2,
+    "product_name": "FAUX LEATHER OVERSIZE  JACKET ",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/3427/811/800/2/w/850/3427811800_2_2_1.jpg?ts=1673979103860',
+    "price": "5,990rs"
+  },
+  {
+    "id": 3,
+    "product_name": "TEXTURED MEN'S BLACK T-SHIRT",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/2/p/0761/412/800/2/w/850/0761412800_2_4_1.jpg?ts=1674031057640',
+    "price": "1,990rs"
+  },
+  {
+    "id": 4,
+    "product_name": "WOMEN'S BOX KNIT MINI SKIRT ",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/3859/153/800/2/w/850/3859153800_2_1_1.jpg?ts=1673974056815',
+    "price": "2,990rs"
+  },
+  {
+    "id": 5,
+    "product_name": "MEN'S HOODIE LIMITED EDITION",
     "img_url": 'https://static.zara.net/photos///2023/V/0/2/p/0761/437/401/2/w/850/0761437401_2_5_1.jpg?ts=1673538656103',
     "price": "2,990rs"
   },
@@ -35,18 +65,18 @@ const products = [
 const zara = () => {
   return (
     <div className="min-h-fit">
-    <div className="px-10 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-1">
+    <div className="px-10 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
       {
         products.map((product, index) =>
           <div className=" bg-white overflow-hidden hover:shadow-2xl" key={index}>
             <img className="w-full h-[500px]" src={product.img_url} alt="zara" />
             <div className="px-6 py-4">
-              <div className="font-bold text-xl text-center mb-2">{product.product_name}</div>
+              <div className="text-xl text-center mb-2">{product.product_name}</div>
             </div>
             <p className="border-b-2 border-b-slate-200"></p>
             <div className="justify-center flex divide-x-2 divide-gray-400 gap-3 p-2">
                 <button className="py-1 w-full flex justify-center  items-center hover:drop-shadow-lg " title='Add to Cart'>Add to cart</button>
-              <Popup trigger={<button className="py-1 w-full text-black  hover:drop-shadow-lg">View</button>} position="top center">
+              <Popup  trigger={<button className="py-1 w-full text-black  hover:drop-shadow-lg">View</button>} position="top center">
                 <div>
                   <div>
                     <label htmlFor="size" className="font-semibold py-1">Size</label>

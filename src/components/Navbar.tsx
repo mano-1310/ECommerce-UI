@@ -17,12 +17,12 @@ const Navbar = () => {
             </svg>
             </span>
           </div>
-          <div className="lg:space-x-[50px] sm:space-x-[20px] lg:p-7 sm:p-2 flex justify-center items-center font-medium text-[18px] block-inline">
+          <div className="lg:space-x-[50px] sm:space-x-[20px] lg:p-7 sm:p-2 flex justify-center items-center font-medium text-[15px] block-inline">
             <Link to='/home' className="hover:underline  transition ease-in-out py-1.5 hover:outline-2 drop-shadow-lg px-4">Home</Link>
             <Link to='/products' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</Link>
           </div>
-          <div className="lg:py-4 justify-end flex items-center lg:ml-[1440px]  text-[18px] block-inline">
-            <Link to='/cart' rel='norefferer'><span className="ml-5 hover:underline">Cart</span></Link>
+          <div className="lg:py-4 justify-end flex items-center lg:ml-[1390px]  text-[15px] block-inline">
+            <Link to='/cart' rel='norefferer'><span className="ml-5 hover:underline">Orders & Cart</span></Link>
           </div>
         </nav>
       </div>
