@@ -36,10 +36,10 @@ const products = [
 const allensolly = () => {
   return (
     <div className="min-h-fit">
-    <div className="px-10 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-5">
+    <div className="px-10 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-1">
       {
         products.map((product, index) =>
-          <div className="rounded bg-white overflow-hidden shadow-lg" key={index}>
+          <div className=" bg-white overflow-hidden hover:shadow-lg" key={index}>
             <img className="w-full h-[400px]" src={product.img_url} alt="allensolly" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl text-center mb-2">{product.product_name}</div>
