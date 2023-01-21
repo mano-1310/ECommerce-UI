@@ -1,4 +1,5 @@
 import React from 'react'
+import { Bounce, toast, ToastContainer } from 'react-toastify'
 import Popup from 'reactjs-popup'
 
 const products = [
@@ -64,8 +65,10 @@ const products = [
   },
 ]
 const puma = () => {
+  const notify = () => toast("Item Added in Cart");
   return (
     <div className="min-h-fit">
+      <ToastContainer theme='colored' transition={Bounce} limit={4}  autoClose={2000} />
       <div className="px-10 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
         {
           products.map((product, index) =>
@@ -76,7 +79,7 @@ const puma = () => {
               </div>
               <p className="border-b-2 border-b-slate-200"></p>
               <div className="justify-center flex divide-x-2 divide-gray-400 gap-3 p-2">
-                <button className="py-1 w-full flex justify-center  items-center hover:drop-shadow-lg " title='Add to Cart'>Add to cart</button>
+              <button onClick={notify} className="py-1 w-full flex justify-center  items-center hover:drop-shadow-lg " title='Add to Cart'>Add to cart</button>
                 <Popup trigger={<button className="py-1 w-full text-black  hover:drop-shadow-lg">View</button>} position="top center">
                   
                     <div>

@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <div className="bg-gray-200 fix w-full" id='home'>
       <div className="flex top-0">
-        <nav className="min-h-[70px] scroll-smooth bg-opacity-75 rounded-xl top-0 max-w-fit container flex">
-          <div className="lg:p-3 sm:p-1">
+        <nav className="min-h-[70px] scroll-smooth bg-opacity-75 rounded-xl top-0 max-w-fit flex">
+          <div className="lg:p-3 sm:p-1 cursor-pointer">
             <span><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
               width="50pt" height="50pt" viewBox="0 0 1217.000000 1182.000000"
               preserveAspectRatio="xMidYMid meet">
