@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link to='/products' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</Link>
           </div>
           <div className="lg:py-4 justify-end flex items-center lg:ml-[1390px]  text-[15px] block-inline">
-            <Link to='/cart' rel='norefferer'><span className="ml-5 hover:underline">Orders & Cart</span></Link>
+            <Link to='/cart&order' rel='norefferer'><span className="ml-5 hover:underline">Orders & Cart</span></Link>
           </div>
         </nav>
       </div>
