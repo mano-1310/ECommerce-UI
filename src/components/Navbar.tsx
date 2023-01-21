@@ -21,8 +21,9 @@ const Navbar = () => {
             <Link to='/home' className="hover:underline  transition ease-in-out py-1.5 hover:outline-2 drop-shadow-lg px-4">Home</Link>
             <Link to='/products' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Products</Link>
           </div>
-          <div className="lg:py-4 justify-end flex items-center lg:ml-[1390px]  text-[15px] block-inline">
-            <Link to='/cart&order' rel='norefferer'><span className="ml-5 hover:underline">Orders & Cart</span></Link>
+          <div className="lg:space-x-[50px] sm:space-x-[20px] lg:p-7 sm:p-2 flex lg:ml-[1290px] justify-center items-center font-medium text-[15px] block-inline">
+            <Link to='/cart&order' rel='norefferer'><span className="mr-3">Cart</span></Link>
+            <Link to='/#'> <button className="py-2 px-6 bg-slate-900 text-white hover:bg-slate-600 rounded-md"> Login </button></Link>
           </div>
         </nav>
       </div>

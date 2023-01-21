@@ -50,13 +50,13 @@ const Home = () => {
         <ImageSlider images1={[images1, images2, images3]} />
         <div className="flex lg:px-5 sm:px-3">
           <div className="grid grid-flow-row ">
-            <h1 className="lg:text-3xl sm:text-xl font-roboto">Top Trending Dresses Are Available</h1>
+            <h1 className="lg:text-3xl sm:text-xl p-2 ">Top Trending Dresses Are Available</h1>
             <div className="grid grid-flow-col">
               <img className="lg:h-[200px] cursor-pointer p-2" src={p1} alt="" />
               <img className="lg:h-[200px] cursor-pointer p-2" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4113827b91d4490a292af3c0081cd8f_9366/Valentine's_Day_Jacket_Grey_IL8292_HM3_hover.jpg" alt="" />
               <img className="lg:h-[200px] cursor-pointer p-2" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e752098dde246d5aaddaf0300a12ce1_9366/Adicolor_Classics_Trefoil_Tee_White_IB7420_21_model.jpg" alt="" />
             </div>
-            <h1 className="lg:text-3xl sm:text-xl font-roboto">Best of Zara & Adidas</h1>
+            <h1 className="lg:text-3xl sm:text-xl  p-2 ">Best of Zara & Adidas</h1>
             <div className="grid grid-flow-col">
               <img className="lg:h-[600px] cursor-pointer p-2" src="https://static.zara.net/photos///2023/V/0/2/p/7545/470/430/2/w/850/7545470430_2_2_1.jpg?ts=1673612964410" alt="" />
               <img className="lg:h-[400px] cursor-pointer p-2" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a6cbb38905f4b098a02af0b017f7269_9366/Pharrell_Williams_Basics_Shorts_(Gender_Neutral)_Pink_HS4823_21_model.jpg" alt="" />
