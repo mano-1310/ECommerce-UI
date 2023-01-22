@@ -69,7 +69,7 @@ const ck = () => {
   return (
     <div className="min-h-fit">
       <ToastContainer theme='colored' transition={Bounce} limit={4}  autoClose={2000} />
-    <div className="lg:px-10 sm: pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
+    <div className="lg:px-10 sm:pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
       {
         products.map((product, index) =>
           <div className=" bg-white overflow-hidden hover:cursor-pointer hover:outline hover:shadow-2xl" key={index}>

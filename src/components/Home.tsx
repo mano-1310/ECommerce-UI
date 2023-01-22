@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import images1 from './assets/images/dressModels/m1.jpg'
 import images2 from './assets/images/dressModels/m2.jpg'
 import images3 from './assets/images/dressModels/m3.jpg'
+import images4 from './assets/images/dressModels/m4.jpg'
 import p1 from './assets/images/p1.jpg'
 import ImageSlider from './ImageSlider1'
 import Topproducts from './Topproducts'
@@ -47,7 +48,7 @@ const Home = () => {
         <h3 className="text-xl lg:text-start  sm:text-center text-red-700"> Quote : <p className="text-center text-black inline-block text-[30px] p-5" >"The joy of dressing is an art." —John Galliano</p> </h3>
       </div>
       <div className="lg:ml-3 sm:ml-0 justify-start overflow-hidden drop-shadow-xl sm:flex">
-        <ImageSlider images1={[images1, images2, images3]} />
+        <ImageSlider images1={[images1, images2, images3,images4]} />
         <div className="flex lg:px-5 sm:px-3">
           <div className="grid grid-flow-row ">
             <h1 className="lg:text-3xl sm:text-xl p-2 ">Top Trending Dresses Are Available</h1>
