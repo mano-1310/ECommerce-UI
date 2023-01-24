@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Cart from './components/order&Cart';
 import Login from './components/auth/Login';
+import CreateAccount from './components/auth/Create_Account';
 //brands
 import Ck from './components/brand_products/ck';
 import Adidas from './components/brand_products/adidas';
@@ -29,6 +30,7 @@ function App() {
         <Route path='/puma' element={< Puma />} />
         <Route path='/adidas' element={< Adidas />} />
         <Route path='/login_auth' element={< Login />} />
+        <Route path='/create_Acc' element={<  CreateAccount />} />
       </Routes>
       <Footer />
     </Background>

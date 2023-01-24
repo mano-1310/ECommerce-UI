@@ -33,43 +33,13 @@ const allBrands = [
     "path": '#',
     "brand_name": "Biba",
   },
-  {
-    "id": 6,
-    "path": '#',
-    "brand_name": "Fabindia",
-  },
-  {
-    "id": 7,
-    "path": '#',
-    "brand_name": "Levi's",
-  },
-  {
-    "id": 8,
-    "path": '#',
-    "brand_name": "Monte Carlo",
-  },
-  {
-    "id": 9,
-    "path": '#',
-    "brand_name": "Nike",
-  },
-  {
-    "id": 10,
-    "path": '#',
-    "brand_name": "Provogue",
-  },
-  {
-    "id": 11,
-    "path": '#',
-    "brand_name": "Zodiac",
-  },
 ]
 
 const Home = () => {
   return (
     <div className="min-h-screen top-0 pt-2">
       <h1 className="font-semibold flex justify-center text-left lg:ml-0 sm:ml-2 py-4">Brands</h1>
-      <div className="grid grid-flow-col justify-center lg:text-2xl sm:text-lg  outline hover:outline-transparent p-3">
+      <div className="grid grid-flow-col justify-center lg:text-2xl sm:text-sm  outline hover:outline-transparent p-3">
         {
           allBrands.map((brand, index) =>
             <div key={index}>
@@ -94,19 +64,20 @@ const Home = () => {
         <div className="grid grid-flow-row mt-">
           <h1 className="lg:text-[80px] sm:text-[50px] p-1">Top Trending Dresses Are Available</h1>
           <div className="grid grid-flow-col">
-            <img className="lg:h-[200px] cursor-pointer" src={p1} alt="" />
-            <img className="lg:h-[200px] cursor-pointer" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4113827b91d4490a292af3c0081cd8f_9366/Valentine's_Day_Jacket_Grey_IL8292_HM3_hover.jpg" alt="" />
-            <img className="lg:h-[200px] cursor-pointer" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e752098dde246d5aaddaf0300a12ce1_9366/Adicolor_Classics_Trefoil_Tee_White_IB7420_21_model.jpg" alt="" />
-            <img className="lg:h-[200px] cursor-pointer" src={images3} alt="" />
+            <img className="lg:h-[400px] cursor-pointer" src={p1} alt="" />
+            <img className="lg:h-[400px] cursor-pointer" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e4113827b91d4490a292af3c0081cd8f_9366/Valentine's_Day_Jacket_Grey_IL8292_HM3_hover.jpg" alt="" />
+            <img className="lg:h-[400px] cursor-pointer" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e752098dde246d5aaddaf0300a12ce1_9366/Adicolor_Classics_Trefoil_Tee_White_IB7420_21_model.jpg" alt="" />
+            <img className="lg:h-[400px] cursor-pointer" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a6cbb38905f4b098a02af0b017f7269_9366/Pharrell_Williams_Basics_Shorts_(Gender_Neutral)_Pink_HS4823_21_model.jpg" alt="" />
           </div>
           <h1 className="lg:text-[70px] sm:text-[50px] p-1 ">Best of Zara & Adidas</h1>
           <div className="grid grid-flow-col">
+            <img className="lg:h-[400px] cursor-pointer" src="https://static.zara.net/photos///2023/V/0/1/p/9479/262/922/2/w/1247/9479262922_9_2_1.jpg?ts=1674130708190" alt="" />
             <img className="lg:h-[600px] cursor-pointer" src="https://static.zara.net/photos///2023/V/0/2/p/7545/470/430/2/w/850/7545470430_2_2_1.jpg?ts=1673612964410" alt="" />
-            <img className="lg:h-[400px] cursor-pointer" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3a6cbb38905f4b098a02af0b017f7269_9366/Pharrell_Williams_Basics_Shorts_(Gender_Neutral)_Pink_HS4823_21_model.jpg" alt="" />
+            <img className="lg:h-[600px] cursor-pointer" src={images3} alt="" />
           </div>
         </div>
       </div>
-      <div className="lg:p-1 sm:p-0 flex items-center justify-start overflow-hidden drop-shadow-xl sm:flex">
+      <div className="lg:p-1 sm:p-0 flex items-center justify-start overflow-hidden mt-3 drop-shadow-xl sm:flex">
         <img className="rounded-md" src={images2} alt="" />
       </div>
       <div className="flex justify-center mt-2 ">

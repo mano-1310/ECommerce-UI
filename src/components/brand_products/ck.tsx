@@ -79,8 +79,8 @@ const ck = () => {
             </div>
             <p className="border-b-2 border-b-slate-200"></p>
             <div className="justify-center flex divide-x-2 divide-gray-400">
-            <button onClick={notify} className="py-1 w-full flex justify-center hover:bg-black hover:text-white items-center hover:drop-shadow-lg " title='Add to Cart'>Add to cart</button>
-              <Popup trigger={<button className="h-[50px] w-[200px] text-black  hover:bg-gray-600 hover:text-white hover:drop-shadow-lg">View</button>} position="top center">
+            <button onClick={notify} className="py-1 w-full flex justify-center hover:transition hover:ease-in-out hover:delay-50 hover:bg-black hover:text-white items-center hover:drop-shadow-lg " title='Add to Cart'>Add to cart</button>
+              <Popup trigger={<button className="h-[50px] w-[200px] text-black  hover:transition hover:ease-in-out hover:delay-50 hover:bg-gray-600 hover:text-white hover:drop-shadow-lg">View</button>} position="top center">
                   <div>
                     <label htmlFor="size" className="font-semibold py-1">Size</label>
                     <div className="font-bold">
