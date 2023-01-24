@@ -1,8 +1,8 @@
 import React from 'react'
-import Ck from './brand_products/ck'
-import Puma from './brand_products/puma'
-import Zara from './brand_products/zara'
-import Adidas from './brand_products/adidas'
+import Ck from './Men/ck'
+import Puma from './Men/puma'
+import Zara from './Men/zara'
+import Adidas from './Men/adidas'
 const Posts = () => {
   return (
     <div className="min-h-screen px-4" >

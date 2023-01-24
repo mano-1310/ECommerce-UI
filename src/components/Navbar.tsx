@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="bg-slate-800 animate-bounce text-white flex justify-center">
         <h1>Only for Adults </h1>
       </div>
-      <div className="bg-gray-200 fix w-full" id='home'>
+      <div className="w-full" id='home'>
         <div className="flex top-0">
           <nav className="min-h-[70px] scroll-smooth bg-opacity-75 rounded-xl top-0 max-w-fit flex">
             <Link to="/home">

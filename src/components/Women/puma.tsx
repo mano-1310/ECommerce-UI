@@ -4,58 +4,10 @@ import Popup from 'reactjs-popup'
 
 const products = [
   {
-    "id": 1,
-    "product_name": "Mercedes F1  Sweatpants",
-    "img_url": 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/533706/01/fnd/IND/fmt/png/Mercedes-F1-Youth-Sweatpants',
-    "price": "3,039rs"
-  },
-  {
-    "id": 2,
-    "product_name": "Summer Squeeze Jacket",
-    "img_url": 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/675395/35/fnd/IND/fmt/png/Summer-Squeeze-Youth-Jacket',
-    "price": "2,399rs"
-  },
-  {
     "id": 3,
     "product_name": "Puma Regular Fit T-Shirt",
     "img_url": 'https://m.media-amazon.com/images/I/71Pb5Sa4ylL._UL1500_.jpg',
     "price": "459rs - 700rs"
-  },
-  {
-    "id": 4,
-    "product_name": "Puma Regular Track Pants",
-    "img_url": 'https://m.media-amazon.com/images/I/71qnE1vkOjL._UY550_.jpg',
-    "price": "899rs"
-  },
-  {
-    "id": 5,
-    "product_name": "Puma Women's Leggings ",
-    "img_url": 'https://m.media-amazon.com/images/I/61nLGVicJ5L._UL1500_.jpg',
-    "price": "1,339rs - 2,286rs"
-  },
-  {
-    "id": 1,
-    "product_name": "Mercedes F1  Sweatpants",
-    "img_url": 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/533706/01/fnd/IND/fmt/png/Mercedes-F1-Youth-Sweatpants',
-    "price": "3,039rs"
-  },
-  {
-    "id": 2,
-    "product_name": "Summer Squeeze Jacket",
-    "img_url": 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/675395/35/fnd/IND/fmt/png/Summer-Squeeze-Youth-Jacket',
-    "price": "2,399rs"
-  },
-  {
-    "id": 3,
-    "product_name": "Puma Regular Fit T-Shirt",
-    "img_url": 'https://m.media-amazon.com/images/I/71Pb5Sa4ylL._UL1500_.jpg',
-    "price": "459rs - 700rs"
-  },
-  {
-    "id": 4,
-    "product_name": "Puma Regular Track Pants",
-    "img_url": 'https://m.media-amazon.com/images/I/71qnE1vkOjL._UY550_.jpg',
-    "price": "899rs"
   },
   {
     "id": 5,

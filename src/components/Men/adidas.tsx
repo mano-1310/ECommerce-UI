@@ -18,51 +18,9 @@ const products = [
   },
   {
     "id": 3,
-    "product_name": "WORDING OVERSIZED FIT FLEECE FULL-ZIP HOODIE",
-    "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fa79fd5f40f94c5c8396ae45013cca1d_9366/Wording_Oversized_Fit_Fleece_Full-Zip_Hoodie_Black_HM2814_25_model.jpg',
-    "price": "4,500.0rs"
-  },
-  {
-    "id": 4,
     "product_name": "ESSENTIALS INSULATED HOODED JACKET",
     "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/234906a2c93347c8bb37ad5201095d0d_9366/Essentials_Insulated_Hooded_Jacket_Grey_HE2977_21_model.jpg',
     "price": "4,799.0rs"
-  },
-  {
-    "id": 5,
-    "product_name": "ALWAYS ORIGINAL POLO WOMEN SHIRT",
-    "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b2356895528541df96a6af0400ba0ebe_9366/Always_Original_Polo_Shirt_Blue_IC5587_01_laydown.jpg',
-    "price": "3,999.0rs"
-  },
-  {
-    "id": 1,
-    "product_name": "DESIGNED 4 GAMEDAY PREMIUM FULL-ZIP TRACK TOP",
-    "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b43a786deeff4895b21caf4600d8b2d4_9366/Designed_4_Gameday_Premium_Full-Zip_Track_Top_Brown_IC8043_21_model.jpg',
-    "price": "6,050.0rs"
-  },
-  {
-    "id": 2,
-    "product_name": "ADIDAS BASKETBALL HOODIE - UNISEX",
-    "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/42eb5b497c0545fda889af5e014faf9b_faec/adidas_Basketball_Hoodie_White_IA3439_HM3_hover.jpg',
-    "price": "7,459.0rs"
-  },
-  {
-    "id": 3,
-    "product_name": "WORDING OVERSIZED FIT FLEECE FULL-ZIP HOODIE",
-    "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fa79fd5f40f94c5c8396ae45013cca1d_9366/Wording_Oversized_Fit_Fleece_Full-Zip_Hoodie_Black_HM2814_25_model.jpg',
-    "price": "4,500.0rs"
-  },
-  {
-    "id": 4,
-    "product_name": "ESSENTIALS INSULATED HOODED JACKET",
-    "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/234906a2c93347c8bb37ad5201095d0d_9366/Essentials_Insulated_Hooded_Jacket_Grey_HE2977_21_model.jpg',
-    "price": "4,799.0rs"
-  },
-  {
-    "id": 5,
-    "product_name": "ALWAYS ORIGINAL POLO WOMEN SHIRT",
-    "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b2356895528541df96a6af0400ba0ebe_9366/Always_Original_Polo_Shirt_Blue_IC5587_01_laydown.jpg',
-    "price": "3,999.0rs"
   },
 ]
 const adidas = () => {

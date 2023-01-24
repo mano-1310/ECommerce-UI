@@ -9,11 +9,18 @@ import { Route, Routes } from 'react-router-dom';
 import Cart from './components/order&Cart';
 import Login from './components/auth/Login';
 import CreateAccount from './components/auth/Create_Account';
-//brands
-import Ck from './components/brand_products/ck';
-import Adidas from './components/brand_products/adidas';
-import Zara from './components/brand_products/zara';
-import Puma from './components/brand_products/puma';
+
+//Men Products
+import Ck from './components/Men/ck';
+import Adidas from './components/Men/adidas';
+import Zara from './components/Men/zara';
+import Puma from './components/Men/puma';
+
+//Women Products
+import CkW from './components/Women/ck';
+import AdidasW from './components/Women/adidas';
+import ZaraW from './components/Women/zara';
+import PumaW from './components/Women/puma';
 
 function App() {
   return (
@@ -25,10 +32,16 @@ function App() {
         <Route path='/men' element={< Men />} />
         <Route path='/women' element={< Women />} />
         <Route path='/cart&order' element={< Cart />} />
+        Men
         <Route path='/ck' element={< Ck />} />
         <Route path='/zara' element={< Zara />} />
         <Route path='/puma' element={< Puma />} />
         <Route path='/adidas' element={< Adidas />} />
+        Women
+        <Route path='/ck_w' element={< CkW />} />
+        <Route path='/zara_w' element={< ZaraW />} />
+        <Route path='/puma_w' element={< PumaW />} />
+        <Route path='/adidas_w' element={< AdidasW />} />
         <Route path='/login_auth' element={< Login />} />
         <Route path='/create_Acc' element={<  CreateAccount />} />
       </Routes>
