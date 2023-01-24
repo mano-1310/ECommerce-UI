@@ -58,6 +58,11 @@ const allBrands = [
     "path": '#',
     "brand_name": "Provogue",
   },
+  {
+    "id": 11,
+    "path": '#',
+    "brand_name": "Zodiac",
+  },
 ]
 
 const Home = () => {
