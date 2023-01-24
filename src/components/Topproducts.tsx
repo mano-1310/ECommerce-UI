@@ -39,7 +39,7 @@ const topproducts = () => {
               </div>
               <p className="border-b-2 border-b-slate-200"></p>
               <div className="justify-center flex divide-x-2 divide-gray-400 gap-3">
-                <button className="py-2 w-full flex justify-center  items-center hover:drop-shadow-lg hover:bg-black hover:text-white " title='Add to Cart'>Buy Now</button>  
+                <button className="py-2 w-full flex justify-center hover:transition hover:ease-in-out hover:delay-50  items-center hover:drop-shadow-lg hover:bg-black hover:text-white " title='Add to Cart'>Buy Now</button>  
               </div>
             </div>
           )
