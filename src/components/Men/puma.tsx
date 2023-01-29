@@ -29,7 +29,7 @@ const puma = () => {
       <div className="lg:px-10 sm:pb-6 sm:mt-3 lg:mt-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
         {
           products.map((product, index) =>
-            <div className=" bg-white overflow-hidden hover:cursor-pointer hover:outline hover:shadow-2xl" key={index}>
+            <div className=" bg-white overflow-hidden hover:cursor-pointer hover:outline drop-shadow-lg" key={index}>
               <img className="w-full h-[400px]" src={product.img_url} alt="puma" />
               <div className="px-6 py-4">
                 <div className="text-xl text-center mb-2">{product.product_name}</div>
