@@ -37,7 +37,7 @@ const allBrands = [
 
 const Home = () => {
   return (
-    <div className="min-h-screen top-0 pt-2">
+    <div className="min-h-screen top-0">
       <h1 className="font-semibold flex justify-center text-left lg:ml-0 sm:ml-2 py-4">Brands</h1>
       <div className="grid grid-flow-col justify-center lg:text-2xl sm:text-sm  outline hover:outline-transparent p-3">
         {

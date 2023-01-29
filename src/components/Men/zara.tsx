@@ -5,13 +5,19 @@ const products = [
     "id": 1,
     "product_name": "TEXTURED MEN'S BLACK T-SHIRT",
     "img_url": 'https://static.zara.net/photos///2023/V/0/2/p/0761/412/800/2/w/850/0761412800_2_4_1.jpg?ts=1674031057640',
-    "price": "1,990rs"
+    "price": "₹ 1,990rs"
   },
   {
     "id": 2,
     "product_name": "MEN'S HOODIE LIMITED EDITION",
     "img_url": 'https://static.zara.net/photos///2023/V/0/2/p/0761/437/401/2/w/850/0761437401_2_5_1.jpg?ts=1673538656103',
-    "price": "2,990rs"
+    "price": "₹ 2,990rs"
+  },
+  {
+    "id": 3,
+    "product_name": "CONTRAST CABLE-KNIT SWEATER",
+    "img_url": 'https://static.zara.net/photos///2023/V/0/2/p/9598/426/250/2/w/850/9598426250_1_1_1.jpg?ts=1673368309997',
+    "price": "₹ 3,990.0"
   },
 ]
 const zara = () => {

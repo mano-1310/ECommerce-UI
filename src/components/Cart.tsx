@@ -5,30 +5,30 @@ const cartProducts = [
     "id": 1,
     "product_name": "DESIGNED 4 FULL-ZIP TRACK TOP",
     "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b43a786deeff4895b21caf4600d8b2d4_9366/Designed_4_Gameday_Premium_Full-Zip_Track_Top_Brown_IC8043_21_model.jpg',
-    "price": "6,050.0rs"
+    "price": "₹ 6,050.0"
   },
   {
     "id": 2,
     "product_name": "Calvin Klein Gray FullHand T-shirt",
     "img_url": 'https://calvinklein.scene7.com/is/image/CalvinKlein/23100321_030_main?wid=440&hei=580&fmt=pjpeg&qlt=85%2C0&resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0&iccEmbed=0',
-    "price": "976rs"
+    "price": "₹ 976.0"
   },
   {
     "id": 3,
     "product_name": "WOMEN'S BOX PLEAT KNIT MINI SKIRT ",
     "img_url": 'https://static.zara.net/photos///2023/V/0/1/p/3859/153/800/2/w/850/3859153800_2_1_1.jpg?ts=1673974056815',
-    "price": "2,990rs"
+    "price": "₹ 2,990.0"
   },
   {
     "id": 4,
     "product_name": "Puma Regular Fit T-Shirt",
     "img_url": 'https://m.media-amazon.com/images/I/71Pb5Sa4ylL._UL1500_.jpg',
-    "price": "459rs - 700rs"
+    "price": "₹ 700.0"
   },
 ]
 const Cart = () => {
   return (
-    <div className="min-h-screen p-7 ">
+    <div className="min-h-screen px-7 ">
       <h3 className=" text-2xl font-bold mb-4">Your Items</h3>
       <div className="grid lg:grid-flow-col sm:grid-flow-row">
         <div className="">
@@ -40,15 +40,17 @@ const Cart = () => {
                     <img className="h-[300px] w-[200px]" src={product.img_url} alt="noImg" />
                   </div>
                   <div>
-                    <h1 className="font-bold">Product Name</h1>
+                    <h1 className="font-bold my-2">Product Name</h1>
                     <p className="border-b-2"></p>
-                    <h1 className="text-left">{product.product_name}</h1>
-                    <label htmlFor="quan">Quantity</label>
+                    <h1 className="text-left my-3">{product.product_name}</h1>
+                    <h2 className="text-green-800">in Stock</h2>
+                    <label htmlFor="quan ">Quantity</label>
                     <input className="ml-2 p-1 w-[50px] border border-gray-500 outline-none" type="number" name="" id="quan" defaultValue={1} />
                   </div>
                   <div>
-                  <h1 className="font-bold text-right">Price </h1>
-                    <h4 id='price' className="text-right font-semibold">{product.price}</h4>
+                    <h1 className="font-bold text-right my-2">Price </h1>
+                    <p className="border-b-2"></p>
+                    <h4 id='price' className="text-right my-3 font-semibold">{product.price}</h4>
                   </div>
                 </div>
               </div>
@@ -65,7 +67,7 @@ const Cart = () => {
           </div>
           <div className="py-2 ">
             <p className="border border-b-2"></p>
-            <h1 className="text-start py-3 font-semibold">Total Amount ({cartProducts.length}) =  </h1>
+            <h1 className="text-start py-3 font-semibold">Total Amount ({cartProducts.length} items) = 10,716 </h1>
           </div>
         </div>
       </div>
