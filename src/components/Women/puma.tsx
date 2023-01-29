@@ -1,16 +1,15 @@
 import React from 'react'
 import { Bounce, toast, ToastContainer } from 'react-toastify'
-import Popup from 'reactjs-popup'
-
+import 'react-toastify/dist/ReactToastify.css';
 const products = [
   {
-    "id": 3,
+    "id": 1,
     "product_name": "Puma Regular Fit T-Shirt",
     "img_url": 'https://m.media-amazon.com/images/I/71Pb5Sa4ylL._UL1500_.jpg',
     "price": "459rs - 700rs"
   },
   {
-    "id": 5,
+    "id": 2,
     "product_name": "Puma Women's Leggings ",
     "img_url": 'https://m.media-amazon.com/images/I/61nLGVicJ5L._UL1500_.jpg',
     "price": "1,339rs - 2,286rs"
@@ -32,34 +31,7 @@ const puma = () => {
               <p className="border-b-2 border-b-slate-200"></p>
               <div className="justify-center flex divide-x-2 divide-gray-400">
               <button onClick={notify} className="w-full flex justify-center hover:transition hover:ease-in-out hover:delay-50 hover:bg-black hover:text-white items-center hover:drop-shadow-lg " title='Add to Cart'>Add to cart</button>
-                <Popup trigger={<button className="h-[50px] w-[200px] text-black hover:transition hover:ease-in-out hover:delay-50 hover:bg-gray-600 hover:text-white  hover:drop-shadow-lg">View</button>} position="top center">
-                    <div >
-                      <label htmlFor="size" className="font-semibold py-1">Size</label>
-                      <div className="font-bold">
-                        <label htmlFor="extrasmall" className="px-4">XS</label>
-                        <input type="checkbox" name="extrasmall" id="xs" className="" />
-                        <label htmlFor="small" className="px-4">S</label>
-                        <input type="checkbox" name="small" id="s" />
-                        <label htmlFor="medium" className="px-4">M</label>
-                        <input type="checkbox" name="medium" id="m" />
-                        <label htmlFor="large" className="px-4">L</label>
-                        <input type="checkbox" name="large" id="l" />
-                        <label htmlFor="extralarge" className="px-4">XL</label>
-                        <input type="checkbox" name="extralarge" id="xl" />
-                      </div>
-                    <div className="pt-2">
-                      <label htmlFor="quantity" className="font-semibold">Quantity
-                        <input type="number" defaultValue={1} className="w-full border-2 rounded-md h-[30px] px-2" />
-                      </label>
-                    </div>
-                    <div className="pt-2 text-xl font-bold">
-                      <h3>Price : {product.price} </h3>
-                    </div>
-                    <div>
-                      <button className="py-1 w-full rounded text-white hover:bg-slate-400 bg-black">Buy</button>
-                    </div>
-                  </div>
-                </Popup>
+              <button className="h-[50px] w-[200px] text-black  hover:transition hover:ease-in-out hover:delay-50 hover:bg-red-900 hover:text-white hover:drop-shadow-lg">View</button>
               </div>
             </div>
           )

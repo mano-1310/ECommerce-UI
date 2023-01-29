@@ -6,7 +6,7 @@ import Men from './components/Men';
 import Women from './components/Women';
 import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
-import Cart from './components/order&Cart';
+import Cart from './components/Cart';
 import Login from './components/auth/Login';
 import CreateAccount from './components/auth/Create_Account';
 
@@ -31,7 +31,7 @@ function App() {
         <Route path='/home' element={< Home />} />
         <Route path='/men' element={< Men />} />
         <Route path='/women' element={< Women />} />
-        <Route path='/cart&order' element={< Cart />} />
+        <Route path='/cart' element={< Cart />} />
         Men
         <Route path='/ck' element={< Ck />} />
         <Route path='/zara' element={< Zara />} />
