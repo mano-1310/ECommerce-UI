@@ -39,9 +39,6 @@ const Cart = () => {
           {
             cartProducts.map((product, index) =>
               <div className="bg-white lg:w-[1200px] drop-shadow-md rounded-lg mb-4 sm:w-[650px] p-4 flex " key={index}>
-                <div>
-                  <input className="mx-4 mt-[140px] h-10" type="checkbox" name="" id="" />
-                </div>
                 <div className='grid lg:grid-cols-3 sm:grid-rows-1 container'>
                   <div>
                     <img className="h-[300px] w-[200px]" src={product.img_url} alt="noImg" />
@@ -53,8 +50,20 @@ const Cart = () => {
                     <h2 className="font-bold">Brand : {product.brand}</h2>
                     <h2 className="text-green-800 text-[15px] py-1">in Stock</h2>
                     <div className="py-3">
-                      <label htmlFor="quan ">Quantity</label>
-                      <input className="ml-2 p-1 w-[50px] border border-gray-500 outline-none" type="number" name="" id="quan" defaultValue={1} /></div>
+                      <label htmlFor="quan">Quantity</label>
+                      <select className="ml-5 w-[50px] outline-none border border-black" name="" id="quan">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                      </select>
+                    </div>
+                    <div className="flex justify-end mt-14">
+                      <button className="text-red-500"> Delete </button>
+                    </div>
                   </div>
                   <div>
                     <h1 className="font-bold text-right my-2">Price </h1>

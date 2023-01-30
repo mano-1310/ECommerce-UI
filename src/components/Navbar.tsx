@@ -24,13 +24,13 @@ const Navbar = () => {
               </span>
             </div>
             </Link>
-            <div className="lg:space-x-[20px] sm:space-x-[10px] lg:p-7 sm:p-2 flex justify-center items-center font-medium text-[15px]">
+            <div className="lg:space-x-[10px] sm:space-x-[10px] lg:p-7 sm:p-2 flex justify-center items-center font-medium text-[15px]">
               <Link to='/men' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Men</Link>
               <Link to='/women' className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 ">Women</Link>
             </div>
-            <div className="lg:space-x-[50px] sm:space-x-[30px] lg:p-7 sm:p-2 flex lg:ml-[1310px] sm:ml-[1340px] justify-center items-center font-medium text-[15px] block-inline">
-              <Link to='/cart' rel='norefferer'><span className="mr-5">Cart</span></Link>
-              <Link to='/login_auth'> <button className="py-2 px-6 ml-4 bg-slate-900 transition ease-in-out text-white hover:bg-slate-600 rounded-md"> Login </button></Link>
+            <div className="space-x-[40px] lg:py-7 sm:py-2 flex lg:ml-[1400px] sm:ml-[1340px] justify-center items-center font-medium text-[15px] block-inline">
+              <Link to='/cart'><span className="mr-0">Cart</span></Link>
+              <Link to='/login_auth'> <button className="py-2 px-6 lg:ml-0 sm:ml-1 flex justify-end bg-slate-900 transition ease-in-out text-white hover:bg-slate-600 rounded-md"> Login </button></Link>
             </div>
           </nav>
         </div>

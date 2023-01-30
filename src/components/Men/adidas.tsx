@@ -16,7 +16,7 @@ const products = [
     "product_name": "ADIDAS BASKETBALL HOODIE - UNISEX",
     "img_url": 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/42eb5b497c0545fda889af5e014faf9b_faec/adidas_Basketball_Hoodie_White_IA3439_HM3_hover.jpg',
     "price": "7,459.0rs",
-    "view_link": "/view"
+    "view_link": "/men/view"
   },
   {
     "id": 3,
