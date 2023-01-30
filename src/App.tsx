@@ -5,11 +5,11 @@ import Home from './components/Home';
 import Men from './components/Men';
 import Women from './components/Women';
 import Navbar from './components/Navbar';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes,Navigate } from 'react-router-dom';
 import Cart from './components/Cart';
 import Login from './components/auth/Login';
 import CreateAccount from './components/auth/Create_Account';
-
+import ViewProduct from './common/ViewProduct';
 //Men Products
 import Ck from './components/Men/ck';
 import Adidas from './components/Men/adidas';
@@ -27,11 +27,12 @@ function App() {
     <Background>
       <Navbar />
       <Routes>
-        <Route path='/' element={< Home />} />
+        <Route path='/' element={<Navigate replace to="/home" />} />
         <Route path='/home' element={< Home />} />
         <Route path='/men' element={< Men />} />
         <Route path='/women' element={< Women />} />
         <Route path='/cart' element={< Cart />} />
+        <Route path='/view' element={< ViewProduct />} />
         Men
         <Route path='/ck' element={< Ck />} />
         <Route path='/zara' element={< Zara />} />

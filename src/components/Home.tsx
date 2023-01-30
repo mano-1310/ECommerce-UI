@@ -58,7 +58,7 @@ const Home = () => {
         <Link to='/login_auth'>
           <button onClick={() => {
             window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-          }} className="bg-red-900 text-white hover:transition hover:ease-in-out hover:delay-50 hover:bg-black hover:text-white py-2 rounded-full px-8">Shop</button></Link>
+          }} className="bg-red-900 text-white transition ease-in-out hover:bg-black hover:text-white py-2 rounded-full px-8">Shop</button></Link>
       </div>
       <div className="flex justify-center lg:px-5 sm:px-3">
         <div className="grid grid-flow-row mt-">
@@ -84,7 +84,7 @@ const Home = () => {
         <Link to='/login_auth'>
           <button onClick={() => {
             window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-          }} className="bg-red-900 text-white hover:transition hover:ease-in-out hover:delay-50 hover:bg-black hover:text-white py-2 rounded-full px-8">Shop</button></Link>
+          }} className="bg-red-900 text-white transition ease-in-out hover:bg-black hover:text-white py-2 rounded-full px-8">Shop</button></Link>
       </div>
       <h1 className="font-semibold text-left lg:ml-10 sm:ml-5 py-4">Top Trending</h1>
       <div>

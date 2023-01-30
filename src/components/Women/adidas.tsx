@@ -29,15 +29,15 @@ const adidas = () => {
       <div className="lg:px-10 sm:px-5 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
         {
           products.map((product, index) =>
-            <div className=" bg-white overflow-hidden  drop-shadow-lg hover:outline " key={index}>
+            <div className=" bg-white overflow-hidden  drop-shadow-lg border hover:border-black " key={index}>
               <img className="w-full h-[400px] hover:cursor-pointer " src={product.img_url} alt="adidas" />
               <div className="px-6 py-4">
                 <div className="text-xl text-center mb-2">{product.product_name}</div>
               </div>
               <p className="border-b-2 border-b-slate-200"></p>
               <div className="justify-center flex divide-x-2 divide-gray-400 ">
-                <button onClick={notify} className="py-1 w-full flex justify-center hover:transition hover:ease-in-out hover:delay-50 hover:bg-black hover:text-white items-center hover:drop-shadow-lg " title='Add to Cart'>Add to cart</button>
-                <button className="h-[50px] w-[200px] text-black  hover:transition hover:ease-in-out hover:delay-50 hover:bg-red-900 hover:text-white hover:drop-shadow-lg">View</button>
+                <button onClick={notify} className="py-1 w-full flex justify-center transition ease-in-out hover:bg-black hover:text-white items-center hover:drop-shadow-lg " title='Add to Cart'>Add to cart</button>
+                <button className="h-[50px] w-[200px] text-black  transition ease-in-out hover:bg-red-900 hover:text-white hover:drop-shadow-lg">View</button>
               </div>
             </div>
           )

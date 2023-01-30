@@ -21,7 +21,7 @@ const Login = () => {
           <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="password" name="" id="password" placeholder="Password" />
         </div>
         <div className="flex justify-center items-center lg:mt-4 sm:mt-2 p-2">
-          <button className="py-2 px-6 bg-slate-900 hover:transition hover:ease-in-out hover:delay-50 text-white hover:bg-slate-600 rounded-md" onClick={() => {
+          <button className="py-2 px-6 bg-slate-900 hover:transition hover:ease-in-out hover:delay-50 text-white hover:bg-slate-600 rounded-md transition ease-in-out" onClick={() => {
             window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
           }}> Create Account </button>
         </div>

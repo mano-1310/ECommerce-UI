@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>
             <div className="lg:space-x-[50px] sm:space-x-[30px] lg:p-7 sm:p-2 flex lg:ml-[1310px] sm:ml-[1340px] justify-center items-center font-medium text-[15px] block-inline">
               <Link to='/cart' rel='norefferer'><span className="mr-5">Cart</span></Link>
-              <Link to='/login_auth'> <button className="py-2 px-6 ml-4 bg-slate-900 hover:transition hover:ease-in-out hover:delay-50 text-white hover:bg-slate-600 rounded-md"> Login </button></Link>
+              <Link to='/login_auth'> <button className="py-2 px-6 ml-4 bg-slate-900 transition ease-in-out text-white hover:bg-slate-600 rounded-md"> Login </button></Link>
             </div>
           </nav>
         </div>
