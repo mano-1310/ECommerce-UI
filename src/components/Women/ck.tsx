@@ -3,13 +3,13 @@ import { Bounce, toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 const products = [
   {
-    "id": 1,
+    "id": "ck1",
     "product_name": "Slant   Logo Cropped T-Shirt",
     "img_url": 'https://calvinklein.scene7.com/is/image/CalvinKlein/11171760_101_main?wid=720&hei=948&fmt=pjpeg&qlt=85%2C0&resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0&iccEmbed=0',
     "price": "1385.0"
   },
   {
-    "id": 2,
+    "id": "ck2",
     "product_name": "Calvin Klein White T-shirt",
     "img_url": 'https://rukminim1.flixcart.com/image/612/612/ksxjs7k0/t-shirt/t/0/2/s-j216518yaf-calvin-klein-jeans-original-imag6ef9e9dbvc6m.jpeg?q=70',
     "price": "500rs"
