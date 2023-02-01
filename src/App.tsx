@@ -10,6 +10,7 @@ import Cart from './components/Cart';
 import Login from './components/auth/Login';
 import CreateAccount from './components/auth/Create_Account';
 import ViewProduct from './common/ViewProduct';
+import Productpage from './common/productspage'
 //Men Products
 import Ck from './components/Men/ck';
 import Adidas from './components/Men/adidas';
@@ -35,11 +36,12 @@ function App() {
         <Route path='/women' element={< Women />} />
         <Route path='/cart' element={< Cart />} />
         <Route path='/view' element={< ViewProduct />}  />
+        <Route path='/products' element={< Productpage />}  />
+        <Route path='/products/:id' element={< ViewProduct/>}  />
         Men
         <Route path='/ck' element={< Ck />} />
         <Route path='/zara' element={< Zara />} />
         <Route path='/puma' element={< Puma />} />
-        <Route path='/adidas' element={< Adidas />} />
         <Route path='/adidas' element={< Adidas />} />
         Women
         <Route path='/ck_w' element={< CkW />} />
