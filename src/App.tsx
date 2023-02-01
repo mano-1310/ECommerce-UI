@@ -22,6 +22,8 @@ import AdidasW from './components/Women/adidas';
 import ZaraW from './components/Women/zara';
 import PumaW from './components/Women/puma';
 
+
+
 function App() {
   return (
     <Background>
@@ -32,11 +34,12 @@ function App() {
         <Route path='/men' element={< Men />} />
         <Route path='/women' element={< Women />} />
         <Route path='/cart' element={< Cart />} />
-        <Route path='/men/view' element={< ViewProduct />} />
+        <Route path='/view' element={< ViewProduct />}  />
         Men
         <Route path='/ck' element={< Ck />} />
         <Route path='/zara' element={< Zara />} />
         <Route path='/puma' element={< Puma />} />
+        <Route path='/adidas' element={< Adidas />} />
         <Route path='/adidas' element={< Adidas />} />
         Women
         <Route path='/ck_w' element={< CkW />} />
