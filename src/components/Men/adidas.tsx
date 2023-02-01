@@ -1,7 +1,5 @@
 import React from "react";
 import "reactjs-popup/dist/index.css";
-import { ToastContainer, toast, Bounce } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
 
 const products = [
@@ -28,16 +26,9 @@ const products = [
   },
 ];
 const Adidas = () => {
-  const notify = () => toast("Item Added in Cart");
   console.log(products);
   return (
     <div className="min-h-fit">
-      <ToastContainer
-        theme="colored"
-        transition={Bounce}
-        limit={4}
-        autoClose={2000}
-      />
       <div className="lg:px-10 sm:px-5 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
         {products.map((product) => (
           <div
@@ -55,20 +46,13 @@ const Adidas = () => {
               </div>
             </div>
             <p className="border-b-2 border-b-slate-200"></p>
-            <div className="justify-center flex divide-x-2 divide-gray-400 ">
-              <button
-                onClick={notify}
-                className="py-1 w-full flex justify-center transition ease-in-out hover:bg-black hover:text-white items-center hover:drop-shadow-lg "
-                title="Add to Cart"
-              >
-                Add to cart
-              </button>
+            <div className="justify-center w-full ">
               <Link to="/view">
                 <button
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
-                  className="h-[50px] w-[120px] text-black transition ease-in-out hover:bg-red-900 hover:text-white hover:drop-shadow-lg"
+                  className="h-[50px] w-full text-black transition ease-in-out hover:bg-red-900 hover:text-white hover:drop-shadow-lg"
                 >
                   View
                 </button>

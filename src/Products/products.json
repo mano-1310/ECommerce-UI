@@ -1,0 +1,116 @@
+{
+    "AllProducts": [
+        {
+            "id": 1,
+            "title": "products",
+            "Gender": [
+                {
+                    "id": "1",
+                    "title": "gender",
+                    "Men": [
+                        {
+                            "id": "1",
+                            "title": "men",
+                            "Brands": [
+                                {
+                                    "id": "m1",
+                                    "title": "brands",
+                                    "Adidas": [
+                                        {
+                                            "id": "b1",
+                                            "title": "adidas",
+                                            "produts": [
+                                                {
+                                                    "id": "adidas1",
+                                                    "product_name": "DESIGNED 4 GAMEDAY PREMIUM FULL-ZIP TRACK TOP",
+                                                    "img_url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b43a786deeff4895b21caf4600d8b2d4_9366/Designed_4_Gameday_Premium_Full-Zip_Track_Top_Brown_IC8043_21_model.jpg",
+                                                    "price": "6,050.0rs"
+                                                },
+                                                {
+                                                    "id": "adidas2",
+                                                    "product_name": "ADIDAS BASKETBALL HOODIE - UNISEX",
+                                                    "img_url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/42eb5b497c0545fda889af5e014faf9b_faec/adidas_Basketball_Hoodie_White_IA3439_HM3_hover.jpg",
+                                                    "price": "7,459.0rs"
+                                                },
+                                                {
+                                                    "id": "adidas3",
+                                                    "product_name": "ESSENTIALS INSULATED HOODED JACKET",
+                                                    "img_url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/234906a2c93347c8bb37ad5201095d0d_9366/Essentials_Insulated_Hooded_Jacket_Grey_HE2977_21_model.jpg",
+                                                    "price": "4,799.0rs"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "calvinKlein": [
+                                        {
+                                            "id": "b2",
+                                            "title": "calvinklein",
+                                            "produts": [
+                                                {
+                                                    "id": 1,
+                                                    "product_name": "Calvin Klein Jeans T-shirt",
+                                                    "img_url": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19054674/2022/9/16/41fef07c-414c-45e0-8357-666c60b93ec11663308912368-Calvin-Klein-Jeans-Men-Tshirts-9831663308911777-1.jpg",
+                                                    "price": "850rs"
+                                                  },
+                                                  {
+                                                    "id": 2,
+                                                    "product_name": "Calvin Klein FullHand T-shirt",
+                                                    "img_url": "https://calvinklein.scene7.com/is/image/CalvinKlein/23100321_030_main?wid=440&hei=580&fmt=pjpeg&qlt=85%2C0&resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0&iccEmbed=0",
+                                                    "price": "976rs"
+                                                  },
+                                                  {
+                                                    "id": 3,
+                                                    "product_name": "Calvin Klein  Black T-shirt",
+                                                    "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRugMsrtilfQemcJoqG8IdTKKPmYdPUA2wuSw&usqp=CAU",
+                                                    "price": "675rs"
+                                                  }
+                                            ]
+                                        }
+                                    ],
+                                    "Zara": [
+                                        {
+                                            "id": "b3",
+                                            "title": "zara",
+                                            "produts": [
+                                                {
+                                                    "id": 1,
+                                                    "product_name": "TEXTURED BLACK T-SHIRT",
+                                                    "img_url": "https://static.zara.net/photos///2023/V/0/2/p/0761/412/800/2/w/850/0761412800_2_4_1.jpg?ts=1674031057640",
+                                                    "price": "₹ 1,990rs"
+                                                  },
+                                                  {
+                                                    "id": 2,
+                                                    "product_name": "MEN'S HOODIE LIMITED EDITION",
+                                                    "img_url": "https://static.zara.net/photos///2023/V/0/2/p/0761/437/401/2/w/850/0761437401_2_5_1.jpg?ts=1673538656103",
+                                                    "price": "₹ 2,990rs"
+                                                  },
+                                                  {
+                                                    "id": 3,
+                                                    "product_name": "CONT CABLE-KNIT SWEATER",
+                                                    "img_url": "https://static.zara.net/photos///2023/V/0/2/p/9598/426/250/2/w/850/9598426250_1_1_1.jpg?ts=1673368309997",
+                                                    "price": "₹ 3,990.0"
+                                                  }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Women": [
+                        {
+                            "id": "2",
+                            "title": "women",
+                            "Brands": [
+                                {
+                                    "id": "1",
+                                    "title": "brands"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

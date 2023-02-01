@@ -1,11 +1,20 @@
 import React from "react";
+import { ToastContainer, toast, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { useParams } from "react-router-dom";
 import products from "./products";
 const ViewProduct = () => {
+  const notify = () => toast("Item Added in Cart");
   const { id } = useParams();
   const prodDetail = products.find((prod) => prod.id === id);
   return (
     <div className="min-h-screen">
+      <ToastContainer
+        theme="colored"
+        transition={Bounce}
+        limit={4}
+        autoClose={2000}
+      />
       <div className="lg:flex sm:flex-none px-4 justify-start">
         <div className="">
           <img
@@ -20,7 +29,10 @@ const ViewProduct = () => {
             {prodDetail?.product_name}
           </h1>
           <div className="py-4">
-            <h1 className="text-2xl underline"> MRP Rate : {prodDetail?.price}</h1>
+            <h1 className="text-2xl underline">
+              {" "}
+              MRP Rate : {prodDetail?.price}
+            </h1>
           </div>
           <div className="py-4">
             <h1 className="text-3xl font-semibold">Sizes</h1>
@@ -68,7 +80,7 @@ const ViewProduct = () => {
         </div>
       </div>
       <div className="py-3 flex justify-center lg:gap-10 items-center mt-5">
-        <button className="px-[80px] py-3 flex justify-center bg-black text-white border transition ease-in-out hover:bg-transparent hover:border-black mr hover:text-black">
+        <button onClick={notify} className="px-[80px] py-3 flex justify-center bg-black text-white border transition ease-in-out hover:bg-transparent hover:border-black mr hover:text-black">
           Cart
         </button>
         <button className="px-[80px] py-3 bg-black flex justify-center text-white border transition ease-in-out hover:bg-transparent hover:border-black hover:text-black">

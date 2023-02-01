@@ -9,16 +9,16 @@ const Login = () => {
           <h3 className="text-1xl">Enter your valid Informations here</h3>
         </div>
         <div className="flex justify-center items-center mt-[20px] p-5">
-          <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="text" name="" id="name" placeholder="Fullname" />
+          <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="text" name="" id="name" placeholder="Fullname" required={true} />
         </div>
         <div className="flex justify-center items-center p-5">
-          <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="email" name="" id="email" placeholder="Email" />
+          <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="email" name="" id="email" placeholder="Email" required={true} />
         </div>
         <div className="flex justify-center items-center p-5">
-          <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="tel" name="" id="Phone" placeholder="Phone no" />
+          <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="tel" name="" id="Phone" placeholder="Phone no" required={true} />
         </div>
         <div className="flex justify-center items-center p-5">
-          <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="password" name="" id="password" placeholder="Password" />
+          <input className="outline-none border-2 border-black bg-transparent text-2xl rounded-[10px] h-[50px] w-[400px] placeholder:hover:text-transparent px-2" type="password" name="" id="password" placeholder="Password" required={true} />
         </div>
         <div className="flex justify-center items-center lg:mt-4 sm:mt-2 p-2">
           <button className="py-2 px-6 bg-slate-900 hover:transition hover:ease-in-out hover:delay-50 text-white hover:bg-slate-600 rounded-md transition ease-in-out" onClick={() => {
