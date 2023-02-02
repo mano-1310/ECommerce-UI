@@ -23,6 +23,7 @@ const products = [
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b2356895528541df96a6af0400ba0ebe_9366/Always_Original_Polo_Shirt_Blue_IC5587_01_laydown.jpg",
     price: "3,999.0rs",
   },
+  
 ];
 const adidas = () => {
   return (

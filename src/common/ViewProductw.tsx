@@ -24,7 +24,7 @@ const ViewProduct = () => {
           />
         </div>
         <div className="p-4 lg:ml-5 lg:w-[1000px] sm:w-[300px]">
-          <h2 className="text-2xl">Men</h2>
+          <h2 className="text-2xl">Women</h2>
           <h1 className="text-4xl py-4 font-bold">
             {prodDetail?.product_name}
           </h1>
@@ -54,8 +54,9 @@ const ViewProduct = () => {
               </button>
             </div>
           </div>
+          
           <div>
-            <h1 className="font-bold py-2">{prodDetail?.product_name}</h1>
+            <h1 className="font-bold py-2">ADIDAS BASKETBALL HOODIE</h1>
             <p className="lg:w-[600px] font-extralight sm:w-[450px] ">
               Don't leave your style behind when the temperature drops. The
               adidas Essentials Insulated Bomber Jacket brings insulated warmth

@@ -1,5 +1,6 @@
 const products = [
   //men
+  //Adidas
   {
     id: "adidasm1",
     product_name: "DESIGNED 4 GAMEDAY PREMIUM FULL-ZIP TRACK TOP",
@@ -22,6 +23,21 @@ const products = [
     price: "4,799.0",
   },
   {
+    id: "adidasm4",
+    product_name: "GRAPHICS CAMO CARGO PANTS",
+    img_url:
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cc95d1d0a315482ba147af350117530e_9366/Graphics_Camo_Cargo_Pants_Black_IC5733_21_model.jpg",
+    price: "8,999.0",
+  },
+  {
+    id: "adidasm5",
+    product_name: "GRAPHICS CAMO CARGO PANTS",
+    img_url:
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/03b1840bff7d481ba54baeec0101ed8e_9366/adidas_Adventure_Winter_Allover_Print_GORE-TEX_Jacket_Multicolor_HK5019_21_model.jpg",
+    price: "29,999.0",
+  },
+//Calvin Klein
+  {
     id: "ckm1",
     product_name: "Calvin Klein Jeans T-shirt",
     img_url:
@@ -42,6 +58,7 @@ const products = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRugMsrtilfQemcJoqG8IdTKKPmYdPUA2wuSw&usqp=CAU",
     price: "675rs",
   },
+  //Puma
   {
     id: "pumam1",
     product_name: "Mercedes F1  Sweatpants",
@@ -62,6 +79,7 @@ const products = [
     img_url: "https://m.media-amazon.com/images/I/71qnE1vkOjL._UY550_.jpg",
     price: "899rs",
   },
+  //Zara
   {
     id: "zaram1",
     product_name: "TEXTURED BLACK T-SHIRT",
@@ -83,9 +101,9 @@ const products = [
       "https://static.zara.net/photos///2023/V/0/2/p/9598/426/250/2/w/850/9598426250_1_1_1.jpg?ts=1673368309997",
     price: "₹ 3,990.0",
   },
-  
-  //women
 
+  //women
+//Adidas
   {
     id: "adidasw1",
     product_name: "ADIDAS BASKETBALL HOODIE - UNISEX",
@@ -107,9 +125,10 @@ const products = [
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b2356895528541df96a6af0400ba0ebe_9366/Always_Original_Polo_Shirt_Blue_IC5587_01_laydown.jpg",
     price: "3,999.0rs",
   },
+  //Calvin Klein
   {
     id: "ckw1",
-    product_name: "Slant   Logo Cropped T-Shirt",
+    product_name: "Slant Logo Cropped T-Shirt",
     img_url:
       "https://calvinklein.scene7.com/is/image/CalvinKlein/11171760_101_main?wid=720&hei=948&fmt=pjpeg&qlt=85%2C0&resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0&iccEmbed=0",
     price: "1385.0",
@@ -121,6 +140,7 @@ const products = [
       "https://rukminim1.flixcart.com/image/612/612/ksxjs7k0/t-shirt/t/0/2/s-j216518yaf-calvin-klein-jeans-original-imag6ef9e9dbvc6m.jpeg?q=70",
     price: "500rs",
   },
+  //Puma
   {
     id: "pumaw1",
     product_name: "Puma Regular Fit T-Shirt",
@@ -133,6 +153,7 @@ const products = [
     img_url: "https://m.media-amazon.com/images/I/61nLGVicJ5L._UL1500_.jpg",
     price: "1,339rs - 2,286rs",
   },
+  //Zara
   {
     id: "zaraw1",
     product_name: "FADED MINIMALIST T-SHIRT",

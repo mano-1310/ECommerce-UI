@@ -4,7 +4,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className="bg-slate-800 animate-bounce text-white flex justify-center">
+      <div className="bg-slate-800 animate-bounce  text-white flex justify-center">
         <h1>Only for Adults </h1>
       </div>
       <div className="w-full" id='home'>

@@ -1,5 +1,4 @@
 import React from "react";
-import "reactjs-popup/dist/index.css";
 import { Link } from "react-router-dom";
 
 const products = [
@@ -23,6 +22,20 @@ const products = [
     img_url:
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/234906a2c93347c8bb37ad5201095d0d_9366/Essentials_Insulated_Hooded_Jacket_Grey_HE2977_21_model.jpg",
     price: "4,799.0rs",
+  },
+  {
+    id: "adidasm4",
+    product_name: "GRAPHICS CAMO CARGO PANTS",
+    img_url:
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cc95d1d0a315482ba147af350117530e_9366/Graphics_Camo_Cargo_Pants_Black_IC5733_21_model.jpg",
+    price: "8,999.0",
+  },
+  {
+    id: "adidasm5",
+    product_name: "GRAPHICS CAMO CARGO PANTS",
+    img_url:
+      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/03b1840bff7d481ba54baeec0101ed8e_9366/adidas_Adventure_Winter_Allover_Print_GORE-TEX_Jacket_Multicolor_HK5019_21_model.jpg",
+    price: "29,999.0",
   },
 ];
 const Adidas = () => {

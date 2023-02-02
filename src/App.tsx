@@ -10,6 +10,7 @@ import Cart from './components/Cart';
 import Login from './components/auth/Login';
 import CreateAccount from './components/auth/Create_Account';
 import ViewProduct from './common/ViewProduct';
+import ViewProductw from './common/ViewProductw';
 import Productpage from './common/productspage'
 //Men Products
 import Ck from './components/Men/ck';
@@ -36,6 +37,8 @@ function App() {
         <Route path='/women' element={< Women />} />
         <Route path='/cart' element={< Cart />} />
         <Route path='/view' element={< ViewProduct />}  />
+        <Route path='/login_auth' element={< Login />} />
+        <Route path='/create_Acc' element={<  CreateAccount />} />
         <Route path='/products' element={< Productpage />}  />
         <Route path='/products/:id' element={< ViewProduct/>}  />
         Men
@@ -49,15 +52,14 @@ function App() {
         <Route path='/adidas/:id' element={< ViewProduct />} />
         Women
         <Route path='/ck_w' element={< CkW />} />
-        <Route path='/ck_w/:id' element={< ViewProduct />} />
+        <Route path='/ck_w/:id' element={< ViewProductw />} />
         <Route path='/zara_w' element={< ZaraW />} />
-        <Route path='/zara_w/:id' element={< ViewProduct />} />
+        <Route path='/zara_w/:id' element={< ViewProductw />} />
         <Route path='/puma_w' element={< PumaW />} />
         <Route path='/puma_w/:id' element={< ViewProduct />} />
         <Route path='/adidas_w' element={< AdidasW />} />
-        <Route path='/adidas_w/:id' element={< ViewProduct />} />
-        <Route path='/login_auth' element={< Login />} />
-        <Route path='/create_Acc' element={<  CreateAccount />} />
+        <Route path='/adidas_w/:id' element={< ViewProductw />} />
+
       </Routes>
       <Footer />
     </Background>
