@@ -1,6 +1,5 @@
 {
     "Men": {
-        "Brands": {
             "Adidas": {
                 "id": "b1",
                 "title": "adidas",
@@ -97,10 +96,8 @@
                     }
                 ]
             }
-        }
-    },
+        },
     "Women": {
-        "Brands": {
             "Adidas": {
                 "id": "b1",
                 "title": "adidas",
@@ -193,4 +190,3 @@
             ]
         }
     }
-}

@@ -40,14 +40,22 @@ function App() {
         <Route path='/products/:id' element={< ViewProduct/>}  />
         Men
         <Route path='/ck' element={< Ck />} />
+        <Route path='/ck/:id' element={< ViewProduct />} />
         <Route path='/zara' element={< Zara />} />
+        <Route path='/zara/:id' element={< ViewProduct />} />
         <Route path='/puma' element={< Puma />} />
+        <Route path='/puma/:id' element={< ViewProduct />} />
         <Route path='/adidas' element={< Adidas />} />
+        <Route path='/adidas/:id' element={< ViewProduct />} />
         Women
         <Route path='/ck_w' element={< CkW />} />
+        <Route path='/ck_w/:id' element={< ViewProduct />} />
         <Route path='/zara_w' element={< ZaraW />} />
+        <Route path='/zara_w/:id' element={< ViewProduct />} />
         <Route path='/puma_w' element={< PumaW />} />
+        <Route path='/puma_w/:id' element={< ViewProduct />} />
         <Route path='/adidas_w' element={< AdidasW />} />
+        <Route path='/adidas_w/:id' element={< ViewProduct />} />
         <Route path='/login_auth' element={< Login />} />
         <Route path='/create_Acc' element={<  CreateAccount />} />
       </Routes>

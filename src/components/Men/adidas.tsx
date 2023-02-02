@@ -4,21 +4,21 @@ import { Link } from "react-router-dom";
 
 const products = [
   {
-    id: "adidas1",
+    id: "adidasm1",
     product_name: "DESIGNED 4 GAMEDAY PREMIUM FULL-ZIP TRACK TOP",
     img_url:
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b43a786deeff4895b21caf4600d8b2d4_9366/Designed_4_Gameday_Premium_Full-Zip_Track_Top_Brown_IC8043_21_model.jpg",
     price: "6,050.0rs",
   },
   {
-    id: "adidas2",
+    id: "adidasm2",
     product_name: "ADIDAS BASKETBALL HOODIE - UNISEX",
     img_url:
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/42eb5b497c0545fda889af5e014faf9b_faec/adidas_Basketball_Hoodie_White_IA3439_HM3_hover.jpg",
     price: "7,459.0rs",
   },
   {
-    id: "adidas3",
+    id: "adidasm3",
     product_name: "ESSENTIALS INSULATED HOODED JACKET",
     img_url:
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/234906a2c93347c8bb37ad5201095d0d_9366/Essentials_Insulated_Hooded_Jacket_Grey_HE2977_21_model.jpg",
@@ -26,7 +26,6 @@ const products = [
   },
 ];
 const Adidas = () => {
-  console.log(products);
   return (
     <div className="min-h-fit">
       <div className="lg:px-10 sm:px-5 pb-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
@@ -47,7 +46,7 @@ const Adidas = () => {
             </div>
             <p className="border-b-2 border-b-slate-200"></p>
             <div className="justify-center w-full ">
-              <Link to="/view">
+              <Link to={`/adidas/${product.id}`}>
                 <button
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

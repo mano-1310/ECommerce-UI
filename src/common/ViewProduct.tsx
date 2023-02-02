@@ -80,7 +80,10 @@ const ViewProduct = () => {
         </div>
       </div>
       <div className="py-3 flex justify-center lg:gap-10 items-center mt-5">
-        <button onClick={notify} className="px-[80px] py-3 flex justify-center bg-black text-white border transition ease-in-out hover:bg-transparent hover:border-black mr hover:text-black">
+        <button
+          onClick={notify}
+          className="px-[80px] py-3 flex justify-center bg-black text-white border transition ease-in-out hover:bg-transparent hover:border-black mr hover:text-black"
+        >
           Cart
         </button>
         <button className="px-[80px] py-3 bg-black flex justify-center text-white border transition ease-in-out hover:bg-transparent hover:border-black hover:text-black">
