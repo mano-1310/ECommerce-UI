@@ -25,7 +25,7 @@ const ViewProduct = () => {
         </div>
         <div className="p-4 lg:ml-5 lg:w-[1000px] sm:w-[300px]">
           <h2 className="text-2xl">Men</h2>
-          <h1 className="text-4xl py-4 font-bold">
+          <h1 className="text-4xl  font-josefin py-4 font-bold">
             {prodDetail?.product_name}
           </h1>
           <div className="py-4">
@@ -36,7 +36,7 @@ const ViewProduct = () => {
           </div>
           <div className="py-4">
             <h1 className="text-3xl font-semibold">Sizes</h1>
-            <div className="space-x-[5px] sm:flex py-3">
+            <div className="space-x-[5px]  sm:flex py-3">
               <button className="px-4 py-2  focus:bg-black focus:text-white transition ease-in-out text-black border border-black">
                 XS
               </button>
@@ -79,10 +79,10 @@ const ViewProduct = () => {
           </div>
         </div>
       </div>
-      <div className="py-3 flex justify-center lg:gap-10 items-center mt-5">
+      <div className="py-3 flex justify-center font-josefin lg:gap-10 items-center mt-5">
         <button
           onClick={notify}
-          className="px-[80px] py-3 flex justify-center bg-black text-white border transition ease-in-out hover:bg-transparent hover:border-black mr hover:text-black"
+          className="px-[80px] py-3 flex justify-center bg-black text-white border transition ease-in-out hover:bg-transparent hover:border-black  hover:text-black"
         >
           Cart
         </button>

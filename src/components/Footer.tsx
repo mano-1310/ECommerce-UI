@@ -1,20 +1,24 @@
-import { AiFillInstagram,AiFillTwitterCircle,AiFillGithub } from "react-icons/ai";
+import {
+  AiFillInstagram,
+  AiFillTwitterCircle,
+  AiFillGithub,
+} from "react-icons/ai";
 
 const socialmedias = [
   {
     link: "https://www.instagram.com/jixlox.jpg",
     name: "Instagram",
-    icon: AiFillInstagram
+    icon: AiFillInstagram,
   },
   {
     link: "https://twitter.com/man0_1310",
     name: "Twitter",
-    icon: AiFillTwitterCircle
+    icon: AiFillTwitterCircle,
   },
   {
     link: "https://github.com/mano-1310",
     name: "GitHub",
-    icon: AiFillGithub
+    icon: AiFillGithub,
   },
 ];
 
@@ -37,8 +41,8 @@ const Footer = () => {
         </div>
         <div className="gap-5 flex justify-center py-4 cursor-pointer">
           {socialmedias.map((sm) => (
-            <div key={sm.name} onClick={()=> window.open(sm.link,"_blank")}>
-               <span className="sr-only">{sm.name}</span>
+            <div key={sm.name} onClick={() => window.open(sm.link, "_blank")}>
+              <span className="sr-only">{sm.name}</span>
               <sm.icon className="h-7 w-7" />
             </div>
           ))}

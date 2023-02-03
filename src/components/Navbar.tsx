@@ -3,12 +3,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header>
-      <div className="bg-slate-800 animate-bounce  text-white flex justify-center">
-        <h1>Only for Adults </h1>
-      </div>
-      <div className="w-full" id="home">
+      <div className="w-full font-josefin font-bold text-black" id="home">
         <div className="flex top-0">
-          <nav className="min-h-[70px] scroll-smooth bg-opacity-75 rounded-xl top-0 max-w-fit flex">
+          <nav className="min-h-[10px]  top-0 max-w-fit flex">
             <Link to="/home">
               <div className="lg:p-3 sm:p-1 ">
                 <span>
@@ -32,7 +29,7 @@ const Navbar = () => {
                 </span>
               </div>
             </Link>
-            <div className="lg:space-x-[10px] sm:space-x-[10px] lg:p-7 sm:p-2 flex justify-center items-center font-medium text-[15px] ">
+            <div className="lg:space-x-[10px] sm:space-x-[10px] lg:p-5 sm:p-2 flex justify-center items-center font-medium lg:text-[20px] sm:text-[15px] ">
               <Link
                 to="/men"
                 className="hover:underline transition ease-in-out py-1.5 drop-shadow-lg px-4 "
@@ -46,14 +43,14 @@ const Navbar = () => {
                 Women
               </Link>
             </div>
-            <div className="space-x-[20px] lg:py-7 sm:py-2 flex lg:ml-[1400px] sm:ml-[1340px] justify-center items-center font-medium text-[15px] block-inline">
-              <Link to="/login_auth">
-                <button className="py-2 px-6 lg:ml-0 sm:ml-1 flex justify-end bg-slate-900 transition ease-in-out text-white hover:bg-slate-600 rounded-md">
-                  Login
-                </button>
-              </Link>
+            <div className="space-x-[20px] lg:py-5 sm:py-2 flex lg:ml-[1400px] sm:ml-[1340px] justify-center items-center font-medium lg:text-[20px] sm:text-[15px] block-inline">
               <Link to="/cart">
                 <span className="mr-0">Cart</span>
+              </Link>
+              <Link to="/login_auth">
+                <button className="py-2 px-6 lg:ml-0 sm:ml-1 flex justify-end bg-black text-white border transition ease-in-out hover:bg-transparent hover:border-black  hover:text-black">
+                  Login
+                </button>
               </Link>
             </div>
           </nav>

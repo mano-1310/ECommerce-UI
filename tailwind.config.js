@@ -6,7 +6,7 @@ module.exports = {
     },
     fontFamily: {
       'poppins': ['Poppins', 'sans-serif'],
-      "rokkitt": ['Rokkitt', 'serif']
+      "josefin": ['Josefin Sans', 'sans-serif']
     },
   },
   plugins: [],

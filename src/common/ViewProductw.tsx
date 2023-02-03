@@ -25,7 +25,7 @@ const ViewProduct = () => {
         </div>
         <div className="p-4 lg:ml-5 lg:w-[1000px] sm:w-[300px]">
           <h2 className="text-2xl">Women</h2>
-          <h1 className="text-4xl py-4 font-bold">
+          <h1 className="text-4xl font-josefin py-4 font-bold">
             {prodDetail?.product_name}
           </h1>
           <div className="py-4">
@@ -56,7 +56,7 @@ const ViewProduct = () => {
           </div>
           
           <div>
-            <h1 className="font-bold py-2">ADIDAS BASKETBALL HOODIE</h1>
+            <h1 className="font-bold py-2">{prodDetail?.product_name}</h1>
             <p className="lg:w-[600px] font-extralight sm:w-[450px] ">
               Don't leave your style behind when the temperature drops. The
               adidas Essentials Insulated Bomber Jacket brings insulated warmth
@@ -80,14 +80,14 @@ const ViewProduct = () => {
           </div>
         </div>
       </div>
-      <div className="py-3 flex justify-center lg:gap-10 items-center mt-5">
+      <div className="py-3 flex justify-center lg:gap-10 font-josefin items-center mt-5">
         <button
           onClick={notify}
-          className="px-[80px] py-3 flex justify-center bg-black text-white border transition ease-in-out hover:bg-transparent hover:border-black mr hover:text-black"
+          className="px-[80px] py-3 flex justify-center bg-black text-white border transition ease-linear hover:bg-transparent hover:border-black  hover:text-black"
         >
           Cart
         </button>
-        <button className="px-[80px] py-3 bg-black flex justify-center text-white border transition ease-in-out hover:bg-transparent hover:border-black hover:text-black">
+        <button className="px-[80px] py-3 bg-black flex justify-center text-white border transition ease-linear hover:bg-transparent hover:border-black hover:text-black">
           Buy
         </button>
       </div>
