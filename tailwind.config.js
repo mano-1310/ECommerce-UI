@@ -6,8 +6,7 @@ module.exports = {
     },
     fontFamily: {
       'poppins': ['Poppins', 'sans-serif'],
-      'roboto': ['Roboto', 'sans-serif'],
-
+      "rokkitt": ['Rokkitt', 'serif']
     },
   },
   plugins: [],
