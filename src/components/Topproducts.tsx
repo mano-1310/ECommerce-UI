@@ -32,10 +32,10 @@ const Topproducts = [
 const topproducts = () => {
   return (
     <div className="min-h-fit">
-      <div className="p-2 lg:px-10 sm:px-5 pb-6 grid grid-cols-1  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3">
+      <div className="p-2 lg:px-10 sm:px-5 pb-6 grid grid-cols-1   sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-3">
         {Topproducts.map((product, index) => (
           <div
-            className=" bg-white overflow-hidden hover:shadow-2xl "
+            className=" bg-white overflow-hidden drop-shadow-md hover:shadow-2xl "
             key={index}
           >
             <img

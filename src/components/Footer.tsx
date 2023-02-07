@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="gap-5 flex justify-center py-4 cursor-pointer">
           {socialmedias.map((sm) => (
-            <div key={sm.name} onClick={() => window.open(sm.link, "_blank")}>
+            <div  key={sm.name} onClick={() => window.open(sm.link, "_blank")}>
               <span className="sr-only">{sm.name}</span>
               <sm.icon className="h-7 w-7" />
             </div>
