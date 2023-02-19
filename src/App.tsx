@@ -9,6 +9,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Cart from "./components/Cart";
 import Login from "./components/auth/Login";
 import CreateAccount from "./components/auth/Create_Account";
+import Forgotp from "./components/auth/Forgot_p";
 import ViewProduct from "./common/ViewProduct";
 import ViewProductw from "./common/ViewProductw";
 //Men Products
@@ -22,14 +23,12 @@ import CkW from "./components/Women/ck";
 import AdidasW from "./components/Women/adidas";
 import ZaraW from "./components/Women/zara";
 import PumaW from "./components/Women/puma";
-import Pageanimation from "./common/PageAnimation";
 
 function App() {
   return (
     <Background>
       <Navbar />
       <Routes>
-        <Pageanimation>
           <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/men" element={<Men />} />
@@ -37,6 +36,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/view" element={<ViewProduct />} />
           <Route path="/login_auth" element={<Login />} />
+          <Route path="/forgot_p" element={<Forgotp />} />
           <Route path="/create_Acc" element={<CreateAccount />} />
           <Route path="/products/:id" element={<ViewProduct />} />
           Men
@@ -57,7 +57,6 @@ function App() {
           <Route path="/puma_w/:id" element={<ViewProduct />} />
           <Route path="/adidas_w" element={<AdidasW />} />
           <Route path="/adidas_w/:id" element={<ViewProductw />} />
-        </Pageanimation>
       </Routes>
       <Footer />
     </Background>
